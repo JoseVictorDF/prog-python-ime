@@ -2,166 +2,199 @@ import pandas as pd
 import pika
 import json
 import time
-import os  # (NOVO) Importa a biblioteca os para manipulação de caminhos de arquivo
 
-# --- Configurações do RabbitMQ ---
 RABBITMQ_HOST = 'localhost'
-FILA_NORMAL = 'fila_normal'
-FILA_ATENCAO = 'fila_atencao'
-FILA_ALERTA_CRITICO = 'fila_alerta_critico'
+NORMAL_ALERT_QUEUE = 'normal_alert_queue'
+ATTENTION_ALERT_QUEUE = 'attention_alert_queue'
+CRITICAL_ALERT_QUEUE = 'critical_alert_queue'
 
+NORMAL_ALERT_ID = 1
+ATTENTION_ALERT_ID = 2
+CRITICAL_ALERT_ID = 3
 
-def classificar_ponto_de_dado(batimento, estado, idade):
-    """
-    Classifica um único ponto de dado (uma linha) em Normal, Atenção ou Crítico.
-    Esta função espelha a lógica usada para gerar os dados.
-    """
-    # Simplificação da lógica da tabela para a função de análise
-    faixa_critica_min, faixa_critica_max = 0, 0
-    faixa_atencao_min, faixa_atencao_max = 0, 0
-
-    if estado == 'Repouso':
-        faixa_atencao_min, faixa_atencao_max = 101, 120
-        faixa_critica_min, faixa_critica_max = 121, 999
-    elif estado == 'Atividade Leve':
-        faixa_atencao_min, faixa_atencao_max = 121, 140
-        faixa_critica_min, faixa_critica_max = 141, 999
-    elif estado == 'Atividade Moderada':
-        faixa_atencao_min, faixa_atencao_max = 151, 170
-        faixa_critica_min, faixa_critica_max = 171, 999
-
-    if idade > 65:  # Ajuste para idosos
-        faixa_atencao_min -= 10
-        faixa_atencao_max -= 10
-        faixa_critica_min -= 10
-        faixa_critica_max -= 10
-
-    if faixa_critica_min <= batimento <= faixa_critica_max:
-        return "Alerta Crítico"
-    if faixa_atencao_min <= batimento <= faixa_atencao_max:
-        return "Atenção"
-
-    return "Normal"
-
-
-def analisar_dados_paciente(df_paciente):
-    """
-    Analisa os 10 minutos de dados de um paciente e retorna o nível de alerta final e um resumo.
-    A lógica prioriza o evento mais grave ocorrido no período.
-    """
-    info_paciente = df_paciente.iloc[0]
-    idade = info_paciente['idade']
-    estado = info_paciente['estado']
-
-    classificacoes = df_paciente['batimento_cardiaco'].apply(
-        lambda bpm: classificar_ponto_de_dado(bpm, estado, idade)
-    )
-
-    if "Alerta Crítico" in classificacoes.values:
-        ponto_critico = df_paciente[classificacoes == "Alerta Crítico"].iloc[0]
-        resumo = f"Pico de {ponto_critico['batimento_cardiaco']} BPM em {estado} no minuto {ponto_critico['minuto']}."
-        return "Alerta Crítico", resumo
-
-    if "Atenção" in classificacoes.values:
-        ponto_atencao = df_paciente[classificacoes == "Atenção"].iloc[0]
-        resumo = f"Registrou {ponto_atencao['batimento_cardiaco']} BPM em {estado}, indicando necessidade de acompanhamento."
-        return "Atenção", resumo
-
-    media_bpm = df_paciente['batimento_cardiaco'].mean()
-    resumo = f"Paciente estável com média de {media_bpm:.1f} BPM em {estado}."
-    return "Normal", resumo
-
-
-def main():
-    print("--- Iniciando Analisador de Pacientes e Publicador RabbitMQ ---")
-
+def create_rabbitmq_channel():
     try:
         connection = pika.BlockingConnection(pika.ConnectionParameters(host=RABBITMQ_HOST))
         channel = connection.channel()
         print("Conexão com RabbitMQ estabelecida com sucesso.")
 
-        channel.queue_declare(queue=FILA_NORMAL, durable=True)
-        channel.queue_declare(queue=FILA_ATENCAO, durable=True)
-        channel.queue_declare(queue=FILA_ALERTA_CRITICO, durable=True)
-        print("Filas 'fila_normal', 'fila_atencao' e 'fila_alerta_critico' estão prontas.")
+        channel.queue_declare(queue=NORMAL_ALERT_QUEUE, durable=True)
+        channel.queue_declare(queue=ATTENTION_ALERT_QUEUE, durable=True)
+        channel.queue_declare(queue=CRITICAL_ALERT_QUEUE, durable=True)
+        print(f"As filas Rabbit '{NORMAL_ALERT_QUEUE}', '{ATTENTION_ALERT_QUEUE}' e '{CRITICAL_ALERT_QUEUE}' estão prontas.")
+
+        return connection, channel
 
     except pika.exceptions.AMQPConnectionError as e:
         print(f"ERRO: Não foi possível conectar ao RabbitMQ em '{RABBITMQ_HOST}'.")
         print("Verifique se o RabbitMQ está rodando (ex: via Docker) e acessível.")
-        return
+        exit()
 
+def read_patients_file():
     try:
-        df_total = pd.read_csv("monitoramento_pacientes.csv")
-        print(f"Arquivo 'monitoramento_pacientes.csv' lido. Total de {len(df_total)} registros.")
+        patients_file = pd.read_csv("monitoramento_pacientes.csv")
+        print(f"Arquivo 'monitoramento_pacientes.csv' lido. Total de {len(patients_file)} registros.")
+
+        return patients_file.groupby('paciente_id')
+
     except FileNotFoundError:
         print("ERRO: Arquivo 'monitoramento_pacientes.csv' não encontrado.")
-        print("Por favor, execute o script gerador de dados primeiro.")
-        connection.close()
-        return
+        exit()
+    except Exception as ex:
+        print(f"Erro: Erro no acesso ao arquivo: 'monitoramento_pacientes.csv': {ex}.")
+        exit()
 
-    pacientes_agrupados = df_total.groupby('paciente_id')
+def read_heartbeat_intervals_by_state_file():
+    try:
+        heartbeat_intervals_by_state_file = pd.read_csv("batimentos_por_estado.csv")
+        print(f"Arquivo 'batimentos_por_estado.csv' lido. Total de {len(heartbeat_intervals_by_state_file)} registros.")
 
-    # (NOVO) Lista para guardar os resultados da auditoria
-    registros_auditoria = []
+        heartbeat_intervals_by_state_file.set_index('state_id', inplace=True)
 
-    print("\nIniciando análise para cada um dos 100 pacientes...")
-    for paciente_id, df_paciente in pacientes_agrupados:
+        return heartbeat_intervals_by_state_file
 
-        nivel_alerta_final, resumo_analise = analisar_dados_paciente(df_paciente)
+    except FileNotFoundError:
+        print("ERRO: Arquivo 'batimentos_por_estado.csv' não encontrado.")
+        exit()
+    except Exception as ex:
+        print(f"Erro: Erro no acesso ao arquivo: 'batimentos_por_estado.csv': {ex}.")
+        exit()
 
-        # (NOVO) Adiciona os dados de auditoria à lista
-        info_paciente = df_paciente.iloc[0]
-        registro_auditoria = {
-            'paciente_id': int(paciente_id),
-            'idade': info_paciente['idade'],
-            'sexo': info_paciente['sexo'],
-            'estado_permanente': info_paciente['estado'],
-            'classificacao_final': nivel_alerta_final,
-            'justificativa': resumo_analise
-        }
-        registros_auditoria.append(registro_auditoria)
+def classify_alerts(heartbeat_intervals, bpm, state, age):
+    try:
+        heartbeat_intervals_info = heartbeat_intervals.loc[state]
 
-        # Seleciona a fila de destino e publica a mensagem (lógica existente)
-        if nivel_alerta_final == "Alerta Crítico":
-            fila_destino = FILA_ALERTA_CRITICO
-        elif nivel_alerta_final == "Atenção":
-            fila_destino = FILA_ATENCAO
+        normal_heartbeat_min = heartbeat_intervals_info['normal_bpm_min']
+        normal_heartbeat_max = heartbeat_intervals_info['normal_bpm_max']
+        attention_heartbeat_max = heartbeat_intervals_info['attention_bpm_max']
+
+        if age > 65:
+            normal_heartbeat_min -= 10
+            normal_heartbeat_max -= 10
+            attention_heartbeat_max -= 10
+
+        if attention_heartbeat_max < bpm or normal_heartbeat_min > bpm:
+            return CRITICAL_ALERT_ID
+        elif normal_heartbeat_max < bpm:
+            return ATTENTION_ALERT_ID
         else:
-            fila_destino = FILA_NORMAL
+            return NORMAL_ALERT_ID
+    except Exception as ex:
+        print(f"Erro: Erro ao classificar alerta: bmp: '{bpm}', state: '{state}' e age: '{age}': {ex}.")
+        exit()
 
-        mensagem = {
-            'paciente_id': int(paciente_id),
-            'nivel_alerta': nivel_alerta_final,
-            'timestamp_analise': time.strftime('%Y-%m-%dT%H:%M:%S'),
-            'resumo_analise': resumo_analise,
-            'dados_paciente': info_paciente.to_dict()
-        }
 
-        corpo_mensagem = json.dumps(mensagem, indent=4)
+def analyze_patient_info(patient_info, patient_data_file, heartbeat_intervals):
+    try:
+        age = patient_info['idade']
+        state_id = patient_info['estado_id']
 
+        alert_classifications = patient_data_file['batimento_cardiaco'].apply(
+            lambda bpm: classify_alerts(heartbeat_intervals, bpm, state_id, age)
+        )
+
+        state = patient_info['estado']
+
+        if CRITICAL_ALERT_ID in alert_classifications.values:
+            final_alert_id = CRITICAL_ALERT_ID
+            critical_point = patient_data_file[alert_classifications == CRITICAL_ALERT_ID].iloc[0]
+            analysis_summary = f"Registrou pico de {critical_point['batimento_cardiaco']} BPM em {state} no minuto {critical_point['minuto']}, precisa de atendimento URGENTE!"
+        elif ATTENTION_ALERT_ID in alert_classifications.values:
+            final_alert_id = ATTENTION_ALERT_ID
+            attention_point = patient_data_file[alert_classifications == ATTENTION_ALERT_ID].iloc[0]
+            analysis_summary = f"Registrou {attention_point['batimento_cardiaco']} BPM em {state}, indicando necessidade de acompanhamento."
+        else:
+            final_alert_id = NORMAL_ALERT_ID
+            media_bpm = patient_data_file['batimento_cardiaco'].mean()
+            analysis_summary = f"Paciente estável com média de {media_bpm:.1f} BPM em {state}."
+
+        return final_alert_id, analysis_summary
+    except Exception as ex:
+        print(f"Erro: Erro ao analizar dados do paciente: '{patient_info.to_dict()}': {ex}.")
+        exit()
+
+def publish_message_to_rabbitmq(channel, queue, message):
+    message_body = json.dumps(message, indent=4)
+    try:
         channel.basic_publish(
             exchange='',
-            routing_key=fila_destino,
-            body=corpo_mensagem,
+            routing_key=queue,
+            body=message_body,
             properties=pika.BasicProperties(delivery_mode=2))
 
-        print(
-            f"  -> Paciente {paciente_id}: Nível '{nivel_alerta_final}'. Mensagem enviada para a fila '{fila_destino}'.")
+        print(f"\nMensagem '{message}' enviada para a fila '{queue}'.")
+    except Exception as ex:
+        print(f"Erro: Erro ao publicar mensagem: '{message_body}', na fila '{queue}': {ex}.")
+        exit()
 
-    # (NOVO) Geração do CSV de Auditoria após o loop de processamento
-    print("\nGerando CSV de auditoria...")
-    df_auditoria = pd.DataFrame(registros_auditoria)
-
+def create_audit_file(audit_records):
     nome_arquivo_auditoria = "log_auditoria_classificacao.csv"
-    df_auditoria.to_csv(nome_arquivo_auditoria, index=False, encoding='utf-8-sig')
+    try:
+        print("\nGerando CSV de auditoria:")
+        df_auditoria = pd.DataFrame(audit_records)
+        df_auditoria.to_csv(nome_arquivo_auditoria, index=False, encoding='utf-8-sig')
 
-    caminho_auditoria = os.path.abspath(nome_arquivo_auditoria)
-    print(f"Arquivo de auditoria salvo com sucesso em: '{caminho_auditoria}'")
+        print(f"Arquivo de auditoria gerado com sucesso;'")
+    except Exception as ex:
+        print(f"Erro: Erro ao gerar o arquivo: '{nome_arquivo_auditoria}': {ex}.")
+        exit()
 
-    # Finalização
-    connection.close()
-    print("\nAnálise concluída. Todas as mensagens foram publicadas e o log de auditoria foi gerado.")
-    print("Verifique a interface de gerenciamento do RabbitMQ e o novo arquivo CSV.")
+def main():
+    try:
+        print("Iniciando programa:")
+
+        connection, channel = create_rabbitmq_channel()
+
+        patients = read_patients_file()
+        heartbeat_intervals = read_heartbeat_intervals_by_state_file()
+
+        audit_records = []
+
+        print("\nIniciando análise de cada paciente:")
+        for patient_id, patient_data_file in patients:
+            patient_info = patient_data_file.iloc[0]
+
+            final_alert_id, analysis_summary = analyze_patient_info(patient_info, patient_data_file, heartbeat_intervals)
+
+            if final_alert_id == CRITICAL_ALERT_ID:
+                final_alert = "Alerta Crítico"
+                destiny_queue = CRITICAL_ALERT_QUEUE
+            elif final_alert_id == ATTENTION_ALERT_ID:
+                final_alert = "Atenção"
+                destiny_queue = ATTENTION_ALERT_QUEUE
+            else:
+                final_alert = "Normal"
+                destiny_queue = NORMAL_ALERT_QUEUE
+
+            message = {
+                'paciente_id': int(patient_id),
+                'nivel_alerta_id': final_alert_id,
+                'nivel_alerta': final_alert,
+                'timestamp_analise': time.strftime('%Y-%m-%dT%H:%M:%S'),
+                'resumo_analise': analysis_summary,
+                'dados_paciente': patient_info.to_dict()
+            }
+
+            audit_record = {
+                'paciente_id': int(patient_id),
+                'idade': patient_info['idade'],
+                'sexo': patient_info['sexo'],
+                'estado_permanente': patient_info['estado'],
+                'classificacao_final_id': final_alert_id,
+                'classificacao_final': final_alert,
+                'justificativa': analysis_summary
+            }
+            audit_records.append(audit_record)
+
+            publish_message_to_rabbitmq(channel, destiny_queue, message)
+
+        create_audit_file(audit_records)
+
+        connection.close()
+        print("\nAnálise concluída. Todas as mensagens foram publicadas e o log de auditoria foi gerado.")
+    except Exception as ex:
+        print(f"Erro: Erro na execução do programa: {ex}.")
+        exit()
 
 
 if __name__ == '__main__':

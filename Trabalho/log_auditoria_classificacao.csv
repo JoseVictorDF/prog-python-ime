@@ -1,0 +1,101 @@
+﻿paciente_id,idade,sexo,estado_permanente,classificacao_final_id,classificacao_final,justificativa
+0,62,F,Atividade Leve,2,Atenção,"Registrou 137 BPM em Atividade Leve, indicando necessidade de acompanhamento."
+1,51,F,Atividade Intensa,3,Alerta Crítico,"Registrou pico de 180 BPM em Atividade Intensa no minuto 0, precisa de atendimento URGENTE!"
+2,51,F,Atividade Intensa,1,Normal,Paciente estável com média de 142.8 BPM em Atividade Intensa.
+3,59,F,Atividade Intensa,3,Alerta Crítico,"Registrou pico de 184 BPM em Atividade Intensa no minuto 0, precisa de atendimento URGENTE!"
+4,60,M,Atividade Leve,1,Normal,Paciente estável com média de 92.7 BPM em Atividade Leve.
+5,56,F,Atividade Intensa,2,Atenção,"Registrou 166 BPM em Atividade Intensa, indicando necessidade de acompanhamento."
+6,66,F,Repouso,1,Normal,Paciente estável com média de 68.8 BPM em Repouso.
+7,64,F,Repouso,3,Alerta Crítico,"Registrou pico de 138 BPM em Repouso no minuto 0, precisa de atendimento URGENTE!"
+8,27,F,Atividade Leve,2,Atenção,"Registrou 131 BPM em Atividade Leve, indicando necessidade de acompanhamento."
+9,44,F,Repouso,1,Normal,Paciente estável com média de 69.1 BPM em Repouso.
+10,55,F,Atividade Leve,2,Atenção,"Registrou 132 BPM em Atividade Leve, indicando necessidade de acompanhamento."
+11,67,F,Repouso,1,Normal,Paciente estável com média de 78.9 BPM em Repouso.
+12,44,F,Atividade Intensa,1,Normal,Paciente estável com média de 126.0 BPM em Atividade Intensa.
+13,65,F,Repouso,2,Atenção,"Registrou 118 BPM em Repouso, indicando necessidade de acompanhamento."
+14,48,M,Atividade Intensa,2,Atenção,"Registrou 156 BPM em Atividade Intensa, indicando necessidade de acompanhamento."
+15,53,M,Repouso,3,Alerta Crítico,"Registrou pico de 129 BPM em Repouso no minuto 0, precisa de atendimento URGENTE!"
+16,33,M,Atividade Leve,1,Normal,Paciente estável com média de 117.2 BPM em Atividade Leve.
+17,40,F,Atividade Intensa,3,Alerta Crítico,"Registrou pico de 184 BPM em Atividade Intensa no minuto 0, precisa de atendimento URGENTE!"
+18,26,M,Atividade Leve,2,Atenção,"Registrou 127 BPM em Atividade Leve, indicando necessidade de acompanhamento."
+19,22,F,Atividade Intensa,1,Normal,Paciente estável com média de 140.2 BPM em Atividade Intensa.
+20,80,M,Atividade Leve,2,Atenção,"Registrou 116 BPM em Atividade Leve, indicando necessidade de acompanhamento."
+21,65,F,Repouso,2,Atenção,"Registrou 118 BPM em Repouso, indicando necessidade de acompanhamento."
+22,37,F,Atividade Intensa,1,Normal,Paciente estável com média de 135.5 BPM em Atividade Intensa.
+23,38,F,Repouso,2,Atenção,"Registrou 102 BPM em Repouso, indicando necessidade de acompanhamento."
+24,49,F,Repouso,1,Normal,Paciente estável com média de 74.1 BPM em Repouso.
+25,46,M,Atividade Leve,2,Atenção,"Registrou 127 BPM em Atividade Leve, indicando necessidade de acompanhamento."
+26,35,F,Atividade Intensa,1,Normal,Paciente estável com média de 133.4 BPM em Atividade Intensa.
+27,47,M,Repouso,1,Normal,Paciente estável com média de 78.6 BPM em Repouso.
+28,42,F,Repouso,2,Atenção,"Registrou 106 BPM em Repouso, indicando necessidade de acompanhamento."
+29,21,F,Atividade Intensa,3,Alerta Crítico,"Registrou pico de 186 BPM em Atividade Intensa no minuto 0, precisa de atendimento URGENTE!"
+30,79,F,Repouso,2,Atenção,"Registrou 92 BPM em Repouso, indicando necessidade de acompanhamento."
+31,45,F,Atividade Leve,3,Alerta Crítico,"Registrou pico de 147 BPM em Atividade Leve no minuto 0, precisa de atendimento URGENTE!"
+32,72,M,Atividade Intensa,1,Normal,Paciente estável com média de 113.9 BPM em Atividade Intensa.
+33,78,F,Repouso,1,Normal,Paciente estável com média de 65.7 BPM em Repouso.
+34,54,M,Atividade Intensa,2,Atenção,"Registrou 155 BPM em Atividade Intensa, indicando necessidade de acompanhamento."
+35,34,M,Atividade Leve,3,Alerta Crítico,"Registrou pico de 155 BPM em Atividade Leve no minuto 0, precisa de atendimento URGENTE!"
+36,29,M,Atividade Intensa,2,Atenção,"Registrou 165 BPM em Atividade Intensa, indicando necessidade de acompanhamento."
+37,60,F,Atividade Intensa,2,Atenção,"Registrou 163 BPM em Atividade Intensa, indicando necessidade de acompanhamento."
+38,41,F,Atividade Leve,3,Alerta Crítico,"Registrou pico de 142 BPM em Atividade Leve no minuto 0, precisa de atendimento URGENTE!"
+39,45,M,Repouso,2,Atenção,"Registrou 114 BPM em Repouso, indicando necessidade de acompanhamento."
+40,21,M,Atividade Leve,1,Normal,Paciente estável com média de 103.4 BPM em Atividade Leve.
+41,63,M,Atividade Intensa,1,Normal,Paciente estável com média de 122.7 BPM em Atividade Intensa.
+42,49,F,Atividade Leve,1,Normal,Paciente estável com média de 100.5 BPM em Atividade Leve.
+43,23,F,Atividade Leve,1,Normal,Paciente estável com média de 108.5 BPM em Atividade Leve.
+44,60,M,Atividade Intensa,1,Normal,Paciente estável com média de 137.3 BPM em Atividade Intensa.
+45,59,F,Atividade Leve,3,Alerta Crítico,"Registrou pico de 141 BPM em Atividade Leve no minuto 0, precisa de atendimento URGENTE!"
+46,69,M,Atividade Leve,3,Alerta Crítico,"Registrou pico de 150 BPM em Atividade Leve no minuto 0, precisa de atendimento URGENTE!"
+47,70,M,Repouso,1,Normal,Paciente estável com média de 63.9 BPM em Repouso.
+48,71,M,Atividade Leve,1,Normal,Paciente estável com média de 102.9 BPM em Atividade Leve.
+49,62,F,Repouso,2,Atenção,"Registrou 102 BPM em Repouso, indicando necessidade de acompanhamento."
+50,71,M,Repouso,3,Alerta Crítico,"Registrou pico de 111 BPM em Repouso no minuto 0, precisa de atendimento URGENTE!"
+51,76,M,Atividade Intensa,1,Normal,Paciente estável com média de 136.6 BPM em Atividade Intensa.
+52,65,M,Atividade Leve,1,Normal,Paciente estável com média de 102.7 BPM em Atividade Leve.
+53,36,M,Atividade Leve,3,Alerta Crítico,"Registrou pico de 154 BPM em Atividade Leve no minuto 0, precisa de atendimento URGENTE!"
+54,67,F,Repouso,1,Normal,Paciente estável com média de 67.0 BPM em Repouso.
+55,41,F,Atividade Leve,2,Atenção,"Registrou 129 BPM em Atividade Leve, indicando necessidade de acompanhamento."
+56,33,M,Atividade Leve,1,Normal,Paciente estável com média de 102.5 BPM em Atividade Leve.
+57,80,M,Atividade Leve,2,Atenção,"Registrou 118 BPM em Atividade Leve, indicando necessidade de acompanhamento."
+58,34,F,Repouso,2,Atenção,"Registrou 113 BPM em Repouso, indicando necessidade de acompanhamento."
+59,77,F,Repouso,2,Atenção,"Registrou 97 BPM em Repouso, indicando necessidade de acompanhamento."
+60,35,F,Repouso,1,Normal,Paciente estável com média de 93.0 BPM em Repouso.
+61,65,M,Repouso,3,Alerta Crítico,"Registrou pico de 124 BPM em Repouso no minuto 0, precisa de atendimento URGENTE!"
+62,38,M,Repouso,3,Alerta Crítico,"Registrou pico de 129 BPM em Repouso no minuto 0, precisa de atendimento URGENTE!"
+63,66,F,Atividade Intensa,1,Normal,Paciente estável com média de 111.4 BPM em Atividade Intensa.
+64,25,F,Atividade Intensa,2,Atenção,"Registrou 167 BPM em Atividade Intensa, indicando necessidade de acompanhamento."
+65,63,F,Atividade Intensa,1,Normal,Paciente estável com média de 135.7 BPM em Atividade Intensa.
+66,38,M,Atividade Intensa,3,Alerta Crítico,"Registrou pico de 179 BPM em Atividade Intensa no minuto 0, precisa de atendimento URGENTE!"
+67,76,F,Atividade Intensa,3,Alerta Crítico,"Registrou pico de 164 BPM em Atividade Intensa no minuto 0, precisa de atendimento URGENTE!"
+68,55,M,Repouso,3,Alerta Crítico,"Registrou pico de 123 BPM em Repouso no minuto 0, precisa de atendimento URGENTE!"
+69,47,M,Atividade Leve,3,Alerta Crítico,"Registrou pico de 146 BPM em Atividade Leve no minuto 0, precisa de atendimento URGENTE!"
+70,29,M,Atividade Leve,3,Alerta Crítico,"Registrou pico de 141 BPM em Atividade Leve no minuto 0, precisa de atendimento URGENTE!"
+71,29,M,Atividade Intensa,1,Normal,Paciente estável com média de 147.5 BPM em Atividade Intensa.
+72,60,F,Repouso,1,Normal,Paciente estável com média de 86.6 BPM em Repouso.
+73,63,M,Repouso,3,Alerta Crítico,"Registrou pico de 121 BPM em Repouso no minuto 0, precisa de atendimento URGENTE!"
+74,50,M,Repouso,3,Alerta Crítico,"Registrou pico de 138 BPM em Repouso no minuto 0, precisa de atendimento URGENTE!"
+75,30,F,Atividade Leve,3,Alerta Crítico,"Registrou pico de 146 BPM em Atividade Leve no minuto 0, precisa de atendimento URGENTE!"
+76,20,F,Atividade Intensa,3,Alerta Crítico,"Registrou pico de 174 BPM em Atividade Intensa no minuto 0, precisa de atendimento URGENTE!"
+77,23,M,Repouso,2,Atenção,"Registrou 119 BPM em Repouso, indicando necessidade de acompanhamento."
+78,30,M,Atividade Leve,2,Atenção,"Registrou 121 BPM em Atividade Leve, indicando necessidade de acompanhamento."
+79,22,F,Repouso,2,Atenção,"Registrou 107 BPM em Repouso, indicando necessidade de acompanhamento."
+80,72,M,Atividade Leve,2,Atenção,"Registrou 127 BPM em Atividade Leve, indicando necessidade de acompanhamento."
+81,72,M,Atividade Leve,2,Atenção,"Registrou 122 BPM em Atividade Leve, indicando necessidade de acompanhamento."
+82,43,M,Repouso,1,Normal,Paciente estável com média de 71.0 BPM em Repouso.
+83,35,F,Atividade Leve,1,Normal,Paciente estável com média de 103.6 BPM em Atividade Leve.
+84,56,M,Atividade Leve,3,Alerta Crítico,"Registrou pico de 151 BPM em Atividade Leve no minuto 0, precisa de atendimento URGENTE!"
+85,73,F,Repouso,1,Normal,Paciente estável com média de 70.1 BPM em Repouso.
+86,20,F,Repouso,3,Alerta Crítico,"Registrou pico de 140 BPM em Repouso no minuto 0, precisa de atendimento URGENTE!"
+87,59,F,Atividade Leve,2,Atenção,"Registrou 137 BPM em Atividade Leve, indicando necessidade de acompanhamento."
+88,44,M,Atividade Leve,1,Normal,Paciente estável com média de 118.7 BPM em Atividade Leve.
+89,32,F,Atividade Intensa,3,Alerta Crítico,"Registrou pico de 176 BPM em Atividade Intensa no minuto 0, precisa de atendimento URGENTE!"
+90,76,M,Atividade Intensa,1,Normal,Paciente estável com média de 124.7 BPM em Atividade Intensa.
+91,80,M,Repouso,3,Alerta Crítico,"Registrou pico de 114 BPM em Repouso no minuto 0, precisa de atendimento URGENTE!"
+92,75,F,Repouso,1,Normal,Paciente estável com média de 62.6 BPM em Repouso.
+93,35,M,Repouso,3,Alerta Crítico,"Registrou pico de 125 BPM em Repouso no minuto 0, precisa de atendimento URGENTE!"
+94,78,M,Repouso,1,Normal,Paciente estável com média de 69.3 BPM em Repouso.
+95,59,F,Atividade Leve,1,Normal,Paciente estável com média de 108.1 BPM em Atividade Leve.
+96,78,F,Atividade Leve,1,Normal,Paciente estável com média de 107.0 BPM em Atividade Leve.
+97,63,F,Repouso,3,Alerta Crítico,"Registrou pico de 128 BPM em Repouso no minuto 0, precisa de atendimento URGENTE!"
+98,24,F,Repouso,1,Normal,Paciente estável com média de 81.6 BPM em Repouso.
+99,67,F,Atividade Leve,2,Atenção,"Registrou 121 BPM em Atividade Leve, indicando necessidade de acompanhamento."

@@ -59,12 +59,12 @@ def gerar_dataset_pacientes(num_pacientes=100, num_minutos=10):
         idade = np.random.randint(20, 81)
         sexo = np.random.choice(["M", "F"])
         # Estado de atividade é fixo para os 10 minutos
-        estado_codigo = np.random.choice([1, 2, 3])  # 1=Repouso, 2=Leve, 3=Intensa
+        estado_id = np.random.choice([1, 2, 3])  # 1=Repouso, 2=Leve, 3=Intensa
         map_estado = {1: "Repouso", 2: "Atividade Leve", 3: "Atividade Intensa"}
-        estado_texto = map_estado[estado_codigo]
+        estado_texto = map_estado[estado_id]
 
         # 3. Gerar a série temporal de BPM de acordo com o perfil
-        bpm_min, bpm_max = definir_faixa_bpm(idade, estado_codigo, perfil_paciente)
+        bpm_min, bpm_max = definir_faixa_bpm(idade, estado_id, perfil_paciente)
 
         # Cria uma linha de base realista dentro da faixa e adiciona "ruído"
         linha_base_bpm = np.random.randint(bpm_min, bpm_max)
@@ -80,6 +80,7 @@ def gerar_dataset_pacientes(num_pacientes=100, num_minutos=10):
                 "minuto": minuto,
                 "idade": idade,
                 "sexo": sexo,
+                "estado_id": estado_id,
                 "estado": estado_texto,
                 "batimento_cardiaco": serie_bpm[minuto]
             }

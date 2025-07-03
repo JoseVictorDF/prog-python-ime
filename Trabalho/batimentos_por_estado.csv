@@ -1,0 +1,4 @@
+﻿state_id,state,normal_bpm_min,normal_bpm_max,attention_bpm_min,attention_bpm_max,critical_bpm_min
+1,rest,60,100,101,120,121
+2,light activity,90,120,121,140,141
+3,intense activity,120,150,151,170,171

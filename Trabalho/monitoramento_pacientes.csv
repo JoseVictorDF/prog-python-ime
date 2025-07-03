@@ -1,1001 +1,1001 @@
-﻿paciente_id,minuto,idade,sexo,estado,batimento_cardiaco
-0,0,57,F,Repouso,108
-0,1,57,F,Repouso,108
-0,2,57,F,Repouso,106
-0,3,57,F,Repouso,103
-0,4,57,F,Repouso,105
-0,5,57,F,Repouso,104
-0,6,57,F,Repouso,107
-0,7,57,F,Repouso,109
-0,8,57,F,Repouso,107
-0,9,57,F,Repouso,105
-1,0,70,M,Atividade Intensa,127
-1,1,70,M,Atividade Intensa,127
-1,2,70,M,Atividade Intensa,128
-1,3,70,M,Atividade Intensa,127
-1,4,70,M,Atividade Intensa,130
-1,5,70,M,Atividade Intensa,130
-1,6,70,M,Atividade Intensa,129
-1,7,70,M,Atividade Intensa,126
-1,8,70,M,Atividade Intensa,127
-1,9,70,M,Atividade Intensa,125
-2,0,72,M,Atividade Leve,148
-2,1,72,M,Atividade Leve,150
-2,2,72,M,Atividade Leve,145
-2,3,72,M,Atividade Leve,147
-2,4,72,M,Atividade Leve,144
-2,5,72,M,Atividade Leve,144
-2,6,72,M,Atividade Leve,150
-2,7,72,M,Atividade Leve,150
-2,8,72,M,Atividade Leve,146
-2,9,72,M,Atividade Leve,144
-3,0,45,M,Repouso,124
-3,1,45,M,Repouso,128
-3,2,45,M,Repouso,123
-3,3,45,M,Repouso,129
-3,4,45,M,Repouso,123
-3,5,45,M,Repouso,124
-3,6,45,M,Repouso,126
-3,7,45,M,Repouso,126
-3,8,45,M,Repouso,124
-3,9,45,M,Repouso,126
-4,0,69,F,Atividade Leve,114
-4,1,69,F,Atividade Leve,111
-4,2,69,F,Atividade Leve,111
-4,3,69,F,Atividade Leve,111
-4,4,69,F,Atividade Leve,117
-4,5,69,F,Atividade Leve,111
-4,6,69,F,Atividade Leve,114
-4,7,69,F,Atividade Leve,113
-4,8,69,F,Atividade Leve,112
-4,9,69,F,Atividade Leve,114
-5,0,20,F,Repouso,129
-5,1,20,F,Repouso,132
-5,2,20,F,Repouso,130
-5,3,20,F,Repouso,129
-5,4,20,F,Repouso,131
-5,5,20,F,Repouso,130
-5,6,20,F,Repouso,128
-5,7,20,F,Repouso,130
-5,8,20,F,Repouso,127
-5,9,20,F,Repouso,128
-6,0,64,F,Repouso,106
-6,1,64,F,Repouso,108
-6,2,64,F,Repouso,109
-6,3,64,F,Repouso,104
-6,4,64,F,Repouso,108
-6,5,64,F,Repouso,107
-6,6,64,F,Repouso,103
-6,7,64,F,Repouso,107
-6,8,64,F,Repouso,104
-6,9,64,F,Repouso,103
-7,0,47,F,Atividade Leve,143
-7,1,47,F,Atividade Leve,145
-7,2,47,F,Atividade Leve,144
-7,3,47,F,Atividade Leve,146
-7,4,47,F,Atividade Leve,146
-7,5,47,F,Atividade Leve,144
-7,6,47,F,Atividade Leve,147
-7,7,47,F,Atividade Leve,148
-7,8,47,F,Atividade Leve,146
-7,9,47,F,Atividade Leve,143
-8,0,73,F,Atividade Intensa,172
-8,1,73,F,Atividade Intensa,177
-8,2,73,F,Atividade Intensa,171
-8,3,73,F,Atividade Intensa,175
-8,4,73,F,Atividade Intensa,176
-8,5,73,F,Atividade Intensa,177
-8,6,73,F,Atividade Intensa,174
-8,7,73,F,Atividade Intensa,173
-8,8,73,F,Atividade Intensa,172
-8,9,73,F,Atividade Intensa,175
-9,0,56,M,Atividade Intensa,186
-9,1,56,M,Atividade Intensa,187
-9,2,56,M,Atividade Intensa,190
-9,3,56,M,Atividade Intensa,189
-9,4,56,M,Atividade Intensa,185
-9,5,56,M,Atividade Intensa,190
-9,6,56,M,Atividade Intensa,187
-9,7,56,M,Atividade Intensa,185
-9,8,56,M,Atividade Intensa,189
-9,9,56,M,Atividade Intensa,189
-10,0,34,M,Atividade Intensa,161
-10,1,34,M,Atividade Intensa,161
-10,2,34,M,Atividade Intensa,161
-10,3,34,M,Atividade Intensa,161
-10,4,34,M,Atividade Intensa,159
-10,5,34,M,Atividade Intensa,157
-10,6,34,M,Atividade Intensa,156
-10,7,34,M,Atividade Intensa,156
-10,8,34,M,Atividade Intensa,158
-10,9,34,M,Atividade Intensa,158
-11,0,58,M,Atividade Leve,139
-11,1,58,M,Atividade Leve,134
-11,2,58,M,Atividade Leve,139
-11,3,58,M,Atividade Leve,136
-11,4,58,M,Atividade Leve,139
-11,5,58,M,Atividade Leve,136
-11,6,58,M,Atividade Leve,139
-11,7,58,M,Atividade Leve,139
-11,8,58,M,Atividade Leve,135
-11,9,58,M,Atividade Leve,139
-12,0,67,F,Atividade Intensa,142
-12,1,67,F,Atividade Intensa,144
-12,2,67,F,Atividade Intensa,144
-12,3,67,F,Atividade Intensa,142
-12,4,67,F,Atividade Intensa,142
-12,5,67,F,Atividade Intensa,141
-12,6,67,F,Atividade Intensa,145
-12,7,67,F,Atividade Intensa,142
-12,8,67,F,Atividade Intensa,144
-12,9,67,F,Atividade Intensa,145
-13,0,73,F,Atividade Intensa,150
-13,1,73,F,Atividade Intensa,148
-13,2,73,F,Atividade Intensa,150
-13,3,73,F,Atividade Intensa,153
-13,4,73,F,Atividade Intensa,147
-13,5,73,F,Atividade Intensa,153
-13,6,73,F,Atividade Intensa,147
-13,7,73,F,Atividade Intensa,152
-13,8,73,F,Atividade Intensa,150
-13,9,73,F,Atividade Intensa,149
-14,0,38,F,Repouso,127
-14,1,38,F,Repouso,123
-14,2,38,F,Repouso,123
-14,3,38,F,Repouso,123
-14,4,38,F,Repouso,125
-14,5,38,F,Repouso,126
-14,6,38,F,Repouso,126
-14,7,38,F,Repouso,124
-14,8,38,F,Repouso,125
-14,9,38,F,Repouso,124
-15,0,65,F,Atividade Intensa,176
-15,1,65,F,Atividade Intensa,175
-15,2,65,F,Atividade Intensa,177
-15,3,65,F,Atividade Intensa,178
-15,4,65,F,Atividade Intensa,181
-15,5,65,F,Atividade Intensa,178
-15,6,65,F,Atividade Intensa,177
-15,7,65,F,Atividade Intensa,180
-15,8,65,F,Atividade Intensa,175
-15,9,65,F,Atividade Intensa,176
-16,0,31,M,Atividade Leve,119
-16,1,31,M,Atividade Leve,118
-16,2,31,M,Atividade Leve,119
-16,3,31,M,Atividade Leve,118
-16,4,31,M,Atividade Leve,119
-16,5,31,M,Atividade Leve,118
-16,6,31,M,Atividade Leve,117
-16,7,31,M,Atividade Leve,119
-16,8,31,M,Atividade Leve,120
-16,9,31,M,Atividade Leve,120
-17,0,62,F,Atividade Intensa,155
-17,1,62,F,Atividade Intensa,159
-17,2,62,F,Atividade Intensa,160
-17,3,62,F,Atividade Intensa,160
-17,4,62,F,Atividade Intensa,159
-17,5,62,F,Atividade Intensa,158
-17,6,62,F,Atividade Intensa,156
-17,7,62,F,Atividade Intensa,158
-17,8,62,F,Atividade Intensa,159
-17,9,62,F,Atividade Intensa,158
-18,0,37,M,Repouso,65
-18,1,37,M,Repouso,67
-18,2,37,M,Repouso,62
-18,3,37,M,Repouso,62
-18,4,37,M,Repouso,67
-18,5,37,M,Repouso,62
-18,6,37,M,Repouso,68
-18,7,37,M,Repouso,67
-18,8,37,M,Repouso,63
-18,9,37,M,Repouso,64
-19,0,47,M,Atividade Intensa,152
-19,1,47,M,Atividade Intensa,152
-19,2,47,M,Atividade Intensa,151
-19,3,47,M,Atividade Intensa,153
-19,4,47,M,Atividade Intensa,151
-19,5,47,M,Atividade Intensa,153
-19,6,47,M,Atividade Intensa,151
-19,7,47,M,Atividade Intensa,153
-19,8,47,M,Atividade Intensa,151
-19,9,47,M,Atividade Intensa,151
-20,0,66,F,Repouso,111
-20,1,66,F,Repouso,111
-20,2,66,F,Repouso,111
-20,3,66,F,Repouso,112
-20,4,66,F,Repouso,111
-20,5,66,F,Repouso,111
-20,6,66,F,Repouso,111
-20,7,66,F,Repouso,111
-20,8,66,F,Repouso,111
-20,9,66,F,Repouso,111
-21,0,29,M,Repouso,87
-21,1,29,M,Repouso,89
-21,2,29,M,Repouso,87
-21,3,29,M,Repouso,87
-21,4,29,M,Repouso,84
-21,5,29,M,Repouso,89
-21,6,29,M,Repouso,89
-21,7,29,M,Repouso,84
-21,8,29,M,Repouso,87
-21,9,29,M,Repouso,84
-22,0,53,F,Repouso,118
-22,1,53,F,Repouso,119
-22,2,53,F,Repouso,118
-22,3,53,F,Repouso,119
-22,4,53,F,Repouso,115
-22,5,53,F,Repouso,115
-22,6,53,F,Repouso,119
-22,7,53,F,Repouso,119
-22,8,53,F,Repouso,119
-22,9,53,F,Repouso,117
-23,0,73,M,Repouso,50
-23,1,73,M,Repouso,50
-23,2,73,M,Repouso,50
-23,3,73,M,Repouso,50
-23,4,73,M,Repouso,50
-23,5,73,M,Repouso,52
-23,6,73,M,Repouso,50
-23,7,73,M,Repouso,52
-23,8,73,M,Repouso,51
-23,9,73,M,Repouso,52
-24,0,58,F,Atividade Intensa,129
-24,1,58,F,Atividade Intensa,134
-24,2,58,F,Atividade Intensa,131
-24,3,58,F,Atividade Intensa,134
-24,4,58,F,Atividade Intensa,135
-24,5,58,F,Atividade Intensa,129
-24,6,58,F,Atividade Intensa,132
-24,7,58,F,Atividade Intensa,132
-24,8,58,F,Atividade Intensa,133
-24,9,58,F,Atividade Intensa,130
-25,0,66,F,Atividade Leve,108
-25,1,66,F,Atividade Leve,104
-25,2,66,F,Atividade Leve,108
-25,3,66,F,Atividade Leve,105
-25,4,66,F,Atividade Leve,107
-25,5,66,F,Atividade Leve,109
-25,6,66,F,Atividade Leve,107
-25,7,66,F,Atividade Leve,105
-25,8,66,F,Atividade Leve,104
-25,9,66,F,Atividade Leve,108
-26,0,68,F,Atividade Leve,102
-26,1,68,F,Atividade Leve,99
-26,2,68,F,Atividade Leve,99
-26,3,68,F,Atividade Leve,97
-26,4,68,F,Atividade Leve,101
-26,5,68,F,Atividade Leve,101
-26,6,68,F,Atividade Leve,97
-26,7,68,F,Atividade Leve,102
-26,8,68,F,Atividade Leve,100
-26,9,68,F,Atividade Leve,99
-27,0,59,F,Repouso,110
-27,1,59,F,Repouso,113
-27,2,59,F,Repouso,110
-27,3,59,F,Repouso,116
-27,4,59,F,Repouso,115
-27,5,59,F,Repouso,114
-27,6,59,F,Repouso,111
-27,7,59,F,Repouso,112
-27,8,59,F,Repouso,116
-27,9,59,F,Repouso,111
-28,0,76,F,Atividade Intensa,168
-28,1,76,F,Atividade Intensa,167
-28,2,76,F,Atividade Intensa,171
-28,3,76,F,Atividade Intensa,168
-28,4,76,F,Atividade Intensa,172
-28,5,76,F,Atividade Intensa,172
-28,6,76,F,Atividade Intensa,167
-28,7,76,F,Atividade Intensa,171
-28,8,76,F,Atividade Intensa,170
-28,9,76,F,Atividade Intensa,169
-29,0,39,M,Atividade Leve,153
-29,1,39,M,Atividade Leve,150
-29,2,39,M,Atividade Leve,156
-29,3,39,M,Atividade Leve,151
-29,4,39,M,Atividade Leve,153
-29,5,39,M,Atividade Leve,156
-29,6,39,M,Atividade Leve,154
-29,7,39,M,Atividade Leve,155
-29,8,39,M,Atividade Leve,151
-29,9,39,M,Atividade Leve,152
-30,0,41,F,Atividade Leve,114
-30,1,41,F,Atividade Leve,108
-30,2,41,F,Atividade Leve,109
-30,3,41,F,Atividade Leve,114
-30,4,41,F,Atividade Leve,109
-30,5,41,F,Atividade Leve,114
-30,6,41,F,Atividade Leve,110
-30,7,41,F,Atividade Leve,113
-30,8,41,F,Atividade Leve,111
-30,9,41,F,Atividade Leve,114
-31,0,71,F,Atividade Intensa,162
-31,1,71,F,Atividade Intensa,163
-31,2,71,F,Atividade Intensa,162
-31,3,71,F,Atividade Intensa,163
-31,4,71,F,Atividade Intensa,167
-31,5,71,F,Atividade Intensa,167
-31,6,71,F,Atividade Intensa,165
-31,7,71,F,Atividade Intensa,166
-31,8,71,F,Atividade Intensa,162
-31,9,71,F,Atividade Intensa,164
-32,0,42,F,Atividade Leve,134
-32,1,42,F,Atividade Leve,132
-32,2,42,F,Atividade Leve,133
-32,3,42,F,Atividade Leve,135
-32,4,42,F,Atividade Leve,130
-32,5,42,F,Atividade Leve,133
-32,6,42,F,Atividade Leve,131
-32,7,42,F,Atividade Leve,129
-32,8,42,F,Atividade Leve,133
-32,9,42,F,Atividade Leve,135
-33,0,51,M,Atividade Leve,150
-33,1,51,M,Atividade Leve,147
-33,2,51,M,Atividade Leve,144
-33,3,51,M,Atividade Leve,146
-33,4,51,M,Atividade Leve,145
-33,5,51,M,Atividade Leve,149
-33,6,51,M,Atividade Leve,150
-33,7,51,M,Atividade Leve,144
-33,8,51,M,Atividade Leve,147
-33,9,51,M,Atividade Leve,144
-34,0,76,M,Repouso,72
-34,1,76,M,Repouso,70
-34,2,76,M,Repouso,68
-34,3,76,M,Repouso,71
-34,4,76,M,Repouso,73
-34,5,76,M,Repouso,72
-34,6,76,M,Repouso,70
-34,7,76,M,Repouso,69
-34,8,76,M,Repouso,73
-34,9,76,M,Repouso,73
-35,0,43,M,Repouso,132
-35,1,43,M,Repouso,133
-35,2,43,M,Repouso,134
-35,3,43,M,Repouso,134
-35,4,43,M,Repouso,137
-35,5,43,M,Repouso,133
-35,6,43,M,Repouso,134
-35,7,43,M,Repouso,132
-35,8,43,M,Repouso,136
-35,9,43,M,Repouso,137
-36,0,57,M,Repouso,123
-36,1,57,M,Repouso,121
-36,2,57,M,Repouso,121
-36,3,57,M,Repouso,121
-36,4,57,M,Repouso,122
-36,5,57,M,Repouso,121
-36,6,57,M,Repouso,121
-36,7,57,M,Repouso,124
-36,8,57,M,Repouso,121
-36,9,57,M,Repouso,121
-37,0,40,F,Atividade Leve,128
-37,1,40,F,Atividade Leve,131
-37,2,40,F,Atividade Leve,130
-37,3,40,F,Atividade Leve,127
-37,4,40,F,Atividade Leve,127
-37,5,40,F,Atividade Leve,128
-37,6,40,F,Atividade Leve,130
-37,7,40,F,Atividade Leve,125
-37,8,40,F,Atividade Leve,131
-37,9,40,F,Atividade Leve,131
-38,0,66,F,Atividade Intensa,123
-38,1,66,F,Atividade Intensa,122
-38,2,66,F,Atividade Intensa,122
-38,3,66,F,Atividade Intensa,122
-38,4,66,F,Atividade Intensa,120
-38,5,66,F,Atividade Intensa,119
-38,6,66,F,Atividade Intensa,124
-38,7,66,F,Atividade Intensa,123
-38,8,66,F,Atividade Intensa,118
-38,9,66,F,Atividade Intensa,123
-39,0,30,F,Repouso,67
-39,1,30,F,Repouso,69
-39,2,30,F,Repouso,67
-39,3,30,F,Repouso,71
-39,4,30,F,Repouso,68
-39,5,30,F,Repouso,66
-39,6,30,F,Repouso,69
-39,7,30,F,Repouso,70
-39,8,30,F,Repouso,71
-39,9,30,F,Repouso,65
-40,0,38,M,Atividade Intensa,167
-40,1,38,M,Atividade Intensa,164
-40,2,38,M,Atividade Intensa,162
-40,3,38,M,Atividade Intensa,167
-40,4,38,M,Atividade Intensa,167
-40,5,38,M,Atividade Intensa,162
-40,6,38,M,Atividade Intensa,162
-40,7,38,M,Atividade Intensa,168
-40,8,38,M,Atividade Intensa,168
-40,9,38,M,Atividade Intensa,168
-41,0,21,M,Repouso,69
-41,1,21,M,Repouso,69
-41,2,21,M,Repouso,69
-41,3,21,M,Repouso,71
-41,4,21,M,Repouso,65
-41,5,21,M,Repouso,67
-41,6,21,M,Repouso,71
-41,7,21,M,Repouso,69
-41,8,21,M,Repouso,71
-41,9,21,M,Repouso,65
-42,0,77,M,Atividade Intensa,124
-42,1,77,M,Atividade Intensa,125
-42,2,77,M,Atividade Intensa,130
-42,3,77,M,Atividade Intensa,128
-42,4,77,M,Atividade Intensa,126
-42,5,77,M,Atividade Intensa,127
-42,6,77,M,Atividade Intensa,130
-42,7,77,M,Atividade Intensa,130
-42,8,77,M,Atividade Intensa,127
-42,9,77,M,Atividade Intensa,127
-43,0,50,F,Atividade Leve,112
-43,1,50,F,Atividade Leve,111
-43,2,50,F,Atividade Leve,107
-43,3,50,F,Atividade Leve,112
-43,4,50,F,Atividade Leve,110
-43,5,50,F,Atividade Leve,107
-43,6,50,F,Atividade Leve,111
-43,7,50,F,Atividade Leve,108
-43,8,50,F,Atividade Leve,109
-43,9,50,F,Atividade Leve,111
-44,0,55,M,Atividade Leve,145
-44,1,55,M,Atividade Leve,141
-44,2,55,M,Atividade Leve,141
-44,3,55,M,Atividade Leve,146
-44,4,55,M,Atividade Leve,145
-44,5,55,M,Atividade Leve,145
-44,6,55,M,Atividade Leve,141
-44,7,55,M,Atividade Leve,141
-44,8,55,M,Atividade Leve,146
-44,9,55,M,Atividade Leve,142
-45,0,76,M,Repouso,85
-45,1,76,M,Repouso,85
-45,2,76,M,Repouso,85
-45,3,76,M,Repouso,85
-45,4,76,M,Repouso,85
-45,5,76,M,Repouso,83
-45,6,76,M,Repouso,82
-45,7,76,M,Repouso,85
-45,8,76,M,Repouso,85
-45,9,76,M,Repouso,85
-46,0,68,F,Atividade Leve,103
-46,1,68,F,Atividade Leve,99
-46,2,68,F,Atividade Leve,100
-46,3,68,F,Atividade Leve,99
-46,4,68,F,Atividade Leve,104
-46,5,68,F,Atividade Leve,104
-46,6,68,F,Atividade Leve,102
-46,7,68,F,Atividade Leve,105
-46,8,68,F,Atividade Leve,100
-46,9,68,F,Atividade Leve,102
-47,0,53,F,Atividade Leve,141
-47,1,53,F,Atividade Leve,144
-47,2,53,F,Atividade Leve,141
-47,3,53,F,Atividade Leve,141
-47,4,53,F,Atividade Leve,144
-47,5,53,F,Atividade Leve,141
-47,6,53,F,Atividade Leve,141
-47,7,53,F,Atividade Leve,143
-47,8,53,F,Atividade Leve,141
-47,9,53,F,Atividade Leve,144
-48,0,32,M,Atividade Intensa,156
-48,1,32,M,Atividade Intensa,151
-48,2,32,M,Atividade Intensa,155
-48,3,32,M,Atividade Intensa,154
-48,4,32,M,Atividade Intensa,157
-48,5,32,M,Atividade Intensa,154
-48,6,32,M,Atividade Intensa,157
-48,7,32,M,Atividade Intensa,155
-48,8,32,M,Atividade Intensa,154
-48,9,32,M,Atividade Intensa,155
-49,0,30,M,Atividade Intensa,157
-49,1,30,M,Atividade Intensa,159
-49,2,30,M,Atividade Intensa,160
-49,3,30,M,Atividade Intensa,160
-49,4,30,M,Atividade Intensa,159
-49,5,30,M,Atividade Intensa,160
-49,6,30,M,Atividade Intensa,155
-49,7,30,M,Atividade Intensa,155
-49,8,30,M,Atividade Intensa,159
-49,9,30,M,Atividade Intensa,161
-50,0,80,M,Atividade Intensa,152
-50,1,80,M,Atividade Intensa,154
-50,2,80,M,Atividade Intensa,155
-50,3,80,M,Atividade Intensa,149
-50,4,80,M,Atividade Intensa,153
-50,5,80,M,Atividade Intensa,150
-50,6,80,M,Atividade Intensa,153
-50,7,80,M,Atividade Intensa,154
-50,8,80,M,Atividade Intensa,152
-50,9,80,M,Atividade Intensa,153
-51,0,36,F,Repouso,75
-51,1,36,F,Repouso,73
-51,2,36,F,Repouso,76
-51,3,36,F,Repouso,74
-51,4,36,F,Repouso,76
-51,5,36,F,Repouso,76
-51,6,36,F,Repouso,75
-51,7,36,F,Repouso,71
-51,8,36,F,Repouso,72
-51,9,36,F,Repouso,74
-52,0,36,M,Atividade Leve,93
-52,1,36,M,Atividade Leve,94
-52,2,36,M,Atividade Leve,95
-52,3,36,M,Atividade Leve,94
-52,4,36,M,Atividade Leve,95
-52,5,36,M,Atividade Leve,95
-52,6,36,M,Atividade Leve,90
-52,7,36,M,Atividade Leve,90
-52,8,36,M,Atividade Leve,90
-52,9,36,M,Atividade Leve,90
-53,0,79,F,Atividade Leve,129
-53,1,79,F,Atividade Leve,129
-53,2,79,F,Atividade Leve,127
-53,3,79,F,Atividade Leve,129
-53,4,79,F,Atividade Leve,127
-53,5,79,F,Atividade Leve,128
-53,6,79,F,Atividade Leve,129
-53,7,79,F,Atividade Leve,129
-53,8,79,F,Atividade Leve,128
-53,9,79,F,Atividade Leve,129
-54,0,23,M,Repouso,106
-54,1,23,M,Repouso,111
-54,2,23,M,Repouso,109
-54,3,23,M,Repouso,106
-54,4,23,M,Repouso,106
-54,5,23,M,Repouso,106
-54,6,23,M,Repouso,106
-54,7,23,M,Repouso,112
-54,8,23,M,Repouso,107
-54,9,23,M,Repouso,107
-55,0,44,F,Atividade Leve,102
-55,1,44,F,Atividade Leve,101
-55,2,44,F,Atividade Leve,101
-55,3,44,F,Atividade Leve,105
-55,4,44,F,Atividade Leve,101
-55,5,44,F,Atividade Leve,101
-55,6,44,F,Atividade Leve,105
-55,7,44,F,Atividade Leve,101
-55,8,44,F,Atividade Leve,103
-55,9,44,F,Atividade Leve,103
-56,0,68,F,Atividade Intensa,133
-56,1,68,F,Atividade Intensa,138
-56,2,68,F,Atividade Intensa,136
-56,3,68,F,Atividade Intensa,133
-56,4,68,F,Atividade Intensa,136
-56,5,68,F,Atividade Intensa,133
-56,6,68,F,Atividade Intensa,135
-56,7,68,F,Atividade Intensa,135
-56,8,68,F,Atividade Intensa,134
-56,9,68,F,Atividade Intensa,134
-57,0,77,F,Repouso,57
-57,1,77,F,Repouso,58
-57,2,77,F,Repouso,52
-57,3,77,F,Repouso,57
-57,4,77,F,Repouso,52
-57,5,77,F,Repouso,58
-57,6,77,F,Repouso,56
-57,7,77,F,Repouso,54
-57,8,77,F,Repouso,57
-57,9,77,F,Repouso,53
-58,0,78,M,Repouso,85
-58,1,78,M,Repouso,80
-58,2,78,M,Repouso,85
-58,3,78,M,Repouso,83
-58,4,78,M,Repouso,83
-58,5,78,M,Repouso,83
-58,6,78,M,Repouso,82
-58,7,78,M,Repouso,85
-58,8,78,M,Repouso,83
-58,9,78,M,Repouso,83
-59,0,20,M,Atividade Leve,95
-59,1,20,M,Atividade Leve,92
-59,2,20,M,Atividade Leve,94
-59,3,20,M,Atividade Leve,94
-59,4,20,M,Atividade Leve,91
-59,5,20,M,Atividade Leve,92
-59,6,20,M,Atividade Leve,90
-59,7,20,M,Atividade Leve,90
-59,8,20,M,Atividade Leve,92
-59,9,20,M,Atividade Leve,96
-60,0,74,F,Atividade Intensa,157
-60,1,74,F,Atividade Intensa,155
-60,2,74,F,Atividade Intensa,158
-60,3,74,F,Atividade Intensa,158
-60,4,74,F,Atividade Intensa,155
-60,5,74,F,Atividade Intensa,155
-60,6,74,F,Atividade Intensa,153
-60,7,74,F,Atividade Intensa,155
-60,8,74,F,Atividade Intensa,156
-60,9,74,F,Atividade Intensa,156
-61,0,42,M,Repouso,134
-61,1,42,M,Repouso,133
-61,2,42,M,Repouso,131
-61,3,42,M,Repouso,129
-61,4,42,M,Repouso,133
-61,5,42,M,Repouso,130
-61,6,42,M,Repouso,130
-61,7,42,M,Repouso,129
-61,8,42,M,Repouso,132
-61,9,42,M,Repouso,132
-62,0,25,M,Atividade Leve,117
-62,1,25,M,Atividade Leve,115
-62,2,25,M,Atividade Leve,118
-62,3,25,M,Atividade Leve,115
-62,4,25,M,Atividade Leve,116
-62,5,25,M,Atividade Leve,116
-62,6,25,M,Atividade Leve,118
-62,7,25,M,Atividade Leve,114
-62,8,25,M,Atividade Leve,118
-62,9,25,M,Atividade Leve,114
-63,0,75,M,Atividade Intensa,121
-63,1,75,M,Atividade Intensa,118
-63,2,75,M,Atividade Intensa,118
-63,3,75,M,Atividade Intensa,119
-63,4,75,M,Atividade Intensa,122
-63,5,75,M,Atividade Intensa,122
-63,6,75,M,Atividade Intensa,122
-63,7,75,M,Atividade Intensa,122
-63,8,75,M,Atividade Intensa,117
-63,9,75,M,Atividade Intensa,119
-64,0,22,M,Atividade Intensa,124
-64,1,22,M,Atividade Intensa,124
-64,2,22,M,Atividade Intensa,120
-64,3,22,M,Atividade Intensa,124
-64,4,22,M,Atividade Intensa,120
-64,5,22,M,Atividade Intensa,124
-64,6,22,M,Atividade Intensa,124
-64,7,22,M,Atividade Intensa,120
-64,8,22,M,Atividade Intensa,123
-64,9,22,M,Atividade Intensa,121
-65,0,51,F,Repouso,107
-65,1,51,F,Repouso,104
-65,2,51,F,Repouso,106
-65,3,51,F,Repouso,106
-65,4,51,F,Repouso,105
-65,5,51,F,Repouso,105
-65,6,51,F,Repouso,105
-65,7,51,F,Repouso,103
-65,8,51,F,Repouso,109
-65,9,51,F,Repouso,103
-66,0,61,F,Atividade Leve,131
-66,1,61,F,Atividade Leve,135
-66,2,61,F,Atividade Leve,131
-66,3,61,F,Atividade Leve,130
-66,4,61,F,Atividade Leve,135
-66,5,61,F,Atividade Leve,134
-66,6,61,F,Atividade Leve,131
-66,7,61,F,Atividade Leve,131
-66,8,61,F,Atividade Leve,136
-66,9,61,F,Atividade Leve,134
-67,0,59,M,Repouso,127
-67,1,59,M,Repouso,132
-67,2,59,M,Repouso,130
-67,3,59,M,Repouso,130
-67,4,59,M,Repouso,126
-67,5,59,M,Repouso,130
-67,6,59,M,Repouso,130
-67,7,59,M,Repouso,128
-67,8,59,M,Repouso,132
-67,9,59,M,Repouso,127
-68,0,36,F,Repouso,122
-68,1,36,F,Repouso,122
-68,2,36,F,Repouso,123
-68,3,36,F,Repouso,121
-68,4,36,F,Repouso,123
-68,5,36,F,Repouso,121
-68,6,36,F,Repouso,121
-68,7,36,F,Repouso,121
-68,8,36,F,Repouso,121
-68,9,36,F,Repouso,121
-69,0,48,M,Atividade Leve,132
-69,1,48,M,Atividade Leve,133
-69,2,48,M,Atividade Leve,129
-69,3,48,M,Atividade Leve,130
-69,4,48,M,Atividade Leve,132
-69,5,48,M,Atividade Leve,131
-69,6,48,M,Atividade Leve,129
-69,7,48,M,Atividade Leve,131
-69,8,48,M,Atividade Leve,134
-69,9,48,M,Atividade Leve,134
-70,0,53,M,Atividade Intensa,157
-70,1,53,M,Atividade Intensa,151
-70,2,53,M,Atividade Intensa,157
-70,3,53,M,Atividade Intensa,153
-70,4,53,M,Atividade Intensa,153
-70,5,53,M,Atividade Intensa,152
-70,6,53,M,Atividade Intensa,152
-70,7,53,M,Atividade Intensa,151
-70,8,53,M,Atividade Intensa,154
-70,9,53,M,Atividade Intensa,156
-71,0,53,F,Atividade Leve,90
-71,1,53,F,Atividade Leve,91
-71,2,53,F,Atividade Leve,91
-71,3,53,F,Atividade Leve,90
-71,4,53,F,Atividade Leve,90
-71,5,53,F,Atividade Leve,90
-71,6,53,F,Atividade Leve,90
-71,7,53,F,Atividade Leve,90
-71,8,53,F,Atividade Leve,90
-71,9,53,F,Atividade Leve,90
-72,0,48,F,Atividade Intensa,120
-72,1,48,F,Atividade Intensa,123
-72,2,48,F,Atividade Intensa,121
-72,3,48,F,Atividade Intensa,120
-72,4,48,F,Atividade Intensa,120
-72,5,48,F,Atividade Intensa,122
-72,6,48,F,Atividade Intensa,120
-72,7,48,F,Atividade Intensa,120
-72,8,48,F,Atividade Intensa,123
-72,9,48,F,Atividade Intensa,122
-73,0,37,F,Repouso,106
-73,1,37,F,Repouso,103
-73,2,37,F,Repouso,104
-73,3,37,F,Repouso,109
-73,4,37,F,Repouso,108
-73,5,37,F,Repouso,109
-73,6,37,F,Repouso,103
-73,7,37,F,Repouso,105
-73,8,37,F,Repouso,106
-73,9,37,F,Repouso,103
-74,0,75,M,Atividade Intensa,170
-74,1,75,M,Atividade Intensa,173
-74,2,75,M,Atividade Intensa,172
-74,3,75,M,Atividade Intensa,172
-74,4,75,M,Atividade Intensa,170
-74,5,75,M,Atividade Intensa,173
-74,6,75,M,Atividade Intensa,172
-74,7,75,M,Atividade Intensa,169
-74,8,75,M,Atividade Intensa,174
-74,9,75,M,Atividade Intensa,172
-75,0,58,M,Repouso,67
-75,1,58,M,Repouso,65
-75,2,58,M,Repouso,68
-75,3,58,M,Repouso,71
-75,4,58,M,Repouso,70
-75,5,58,M,Repouso,65
-75,6,58,M,Repouso,70
-75,7,58,M,Repouso,68
-75,8,58,M,Repouso,65
-75,9,58,M,Repouso,70
-76,0,50,F,Atividade Leve,111
-76,1,50,F,Atividade Leve,115
-76,2,50,F,Atividade Leve,112
-76,3,50,F,Atividade Leve,112
-76,4,50,F,Atividade Leve,115
-76,5,50,F,Atividade Leve,111
-76,6,50,F,Atividade Leve,111
-76,7,50,F,Atividade Leve,109
-76,8,50,F,Atividade Leve,111
-76,9,50,F,Atividade Leve,112
-77,0,51,M,Atividade Intensa,187
-77,1,51,M,Atividade Intensa,187
-77,2,51,M,Atividade Intensa,188
-77,3,51,M,Atividade Intensa,189
-77,4,51,M,Atividade Intensa,190
-77,5,51,M,Atividade Intensa,190
-77,6,51,M,Atividade Intensa,188
-77,7,51,M,Atividade Intensa,190
-77,8,51,M,Atividade Intensa,187
-77,9,51,M,Atividade Intensa,190
-78,0,78,M,Repouso,115
-78,1,78,M,Repouso,116
-78,2,78,M,Repouso,112
-78,3,78,M,Repouso,111
-78,4,78,M,Repouso,116
-78,5,78,M,Repouso,113
-78,6,78,M,Repouso,115
-78,7,78,M,Repouso,117
-78,8,78,M,Repouso,112
-78,9,78,M,Repouso,117
-79,0,58,M,Atividade Leve,141
-79,1,58,M,Atividade Leve,142
-79,2,58,M,Atividade Leve,145
-79,3,58,M,Atividade Leve,144
-79,4,58,M,Atividade Leve,142
-79,5,58,M,Atividade Leve,141
-79,6,58,M,Atividade Leve,142
-79,7,58,M,Atividade Leve,143
-79,8,58,M,Atividade Leve,146
-79,9,58,M,Atividade Leve,145
-80,0,55,M,Atividade Leve,111
-80,1,55,M,Atividade Leve,117
-80,2,55,M,Atividade Leve,117
-80,3,55,M,Atividade Leve,111
-80,4,55,M,Atividade Leve,111
-80,5,55,M,Atividade Leve,111
-80,6,55,M,Atividade Leve,116
-80,7,55,M,Atividade Leve,117
-80,8,55,M,Atividade Leve,117
-80,9,55,M,Atividade Leve,111
-81,0,71,F,Repouso,80
-81,1,71,F,Repouso,79
-81,2,71,F,Repouso,85
-81,3,71,F,Repouso,80
-81,4,71,F,Repouso,84
-81,5,71,F,Repouso,83
-81,6,71,F,Repouso,81
-81,7,71,F,Repouso,79
-81,8,71,F,Repouso,79
-81,9,71,F,Repouso,84
-82,0,62,M,Atividade Intensa,176
-82,1,62,M,Atividade Intensa,172
-82,2,62,M,Atividade Intensa,172
-82,3,62,M,Atividade Intensa,175
-82,4,62,M,Atividade Intensa,173
-82,5,62,M,Atividade Intensa,173
-82,6,62,M,Atividade Intensa,171
-82,7,62,M,Atividade Intensa,175
-82,8,62,M,Atividade Intensa,173
-82,9,62,M,Atividade Intensa,173
-83,0,53,F,Repouso,135
-83,1,53,F,Repouso,131
-83,2,53,F,Repouso,131
-83,3,53,F,Repouso,130
-83,4,53,F,Repouso,134
-83,5,53,F,Repouso,133
-83,6,53,F,Repouso,136
-83,7,53,F,Repouso,133
-83,8,53,F,Repouso,130
-83,9,53,F,Repouso,135
-84,0,66,F,Repouso,124
-84,1,66,F,Repouso,123
-84,2,66,F,Repouso,120
-84,3,66,F,Repouso,123
-84,4,66,F,Repouso,122
-84,5,66,F,Repouso,120
-84,6,66,F,Repouso,125
-84,7,66,F,Repouso,121
-84,8,66,F,Repouso,121
-84,9,66,F,Repouso,126
-85,0,34,M,Atividade Leve,107
-85,1,34,M,Atividade Leve,109
-85,2,34,M,Atividade Leve,103
-85,3,34,M,Atividade Leve,104
-85,4,34,M,Atividade Leve,105
-85,5,34,M,Atividade Leve,107
-85,6,34,M,Atividade Leve,105
-85,7,34,M,Atividade Leve,107
-85,8,34,M,Atividade Leve,106
-85,9,34,M,Atividade Leve,103
-86,0,23,F,Atividade Leve,93
-86,1,23,F,Atividade Leve,92
-86,2,23,F,Atividade Leve,97
-86,3,23,F,Atividade Leve,91
-86,4,23,F,Atividade Leve,92
-86,5,23,F,Atividade Leve,92
-86,6,23,F,Atividade Leve,95
-86,7,23,F,Atividade Leve,97
-86,8,23,F,Atividade Leve,97
-86,9,23,F,Atividade Leve,93
-87,0,46,F,Atividade Intensa,172
-87,1,46,F,Atividade Intensa,173
-87,2,46,F,Atividade Intensa,172
-87,3,46,F,Atividade Intensa,175
-87,4,46,F,Atividade Intensa,174
-87,5,46,F,Atividade Intensa,171
-87,6,46,F,Atividade Intensa,174
-87,7,46,F,Atividade Intensa,171
-87,8,46,F,Atividade Intensa,173
-87,9,46,F,Atividade Intensa,171
-88,0,68,M,Atividade Intensa,134
-88,1,68,M,Atividade Intensa,133
-88,2,68,M,Atividade Intensa,129
-88,3,68,M,Atividade Intensa,130
-88,4,68,M,Atividade Intensa,134
-88,5,68,M,Atividade Intensa,134
-88,6,68,M,Atividade Intensa,128
-88,7,68,M,Atividade Intensa,131
-88,8,68,M,Atividade Intensa,129
-88,9,68,M,Atividade Intensa,132
-89,0,73,F,Repouso,100
-89,1,73,F,Repouso,104
-89,2,73,F,Repouso,98
-89,3,73,F,Repouso,102
-89,4,73,F,Repouso,98
-89,5,73,F,Repouso,104
-89,6,73,F,Repouso,102
-89,7,73,F,Repouso,99
-89,8,73,F,Repouso,101
-89,9,73,F,Repouso,101
-90,0,66,F,Atividade Intensa,124
-90,1,66,F,Atividade Intensa,124
-90,2,66,F,Atividade Intensa,125
-90,3,66,F,Atividade Intensa,123
-90,4,66,F,Atividade Intensa,125
-90,5,66,F,Atividade Intensa,123
-90,6,66,F,Atividade Intensa,123
-90,7,66,F,Atividade Intensa,123
-90,8,66,F,Atividade Intensa,121
-90,9,66,F,Atividade Intensa,126
-91,0,46,F,Atividade Intensa,120
-91,1,46,F,Atividade Intensa,125
-91,2,46,F,Atividade Intensa,123
-91,3,46,F,Atividade Intensa,124
-91,4,46,F,Atividade Intensa,122
-91,5,46,F,Atividade Intensa,121
-91,6,46,F,Atividade Intensa,124
-91,7,46,F,Atividade Intensa,126
-91,8,46,F,Atividade Intensa,122
-91,9,46,F,Atividade Intensa,120
-92,0,22,M,Atividade Intensa,169
-92,1,22,M,Atividade Intensa,164
-92,2,22,M,Atividade Intensa,168
-92,3,22,M,Atividade Intensa,168
-92,4,22,M,Atividade Intensa,163
-92,5,22,M,Atividade Intensa,164
-92,6,22,M,Atividade Intensa,163
-92,7,22,M,Atividade Intensa,168
-92,8,22,M,Atividade Intensa,169
-92,9,22,M,Atividade Intensa,166
-93,0,57,F,Atividade Intensa,162
-93,1,57,F,Atividade Intensa,156
-93,2,57,F,Atividade Intensa,158
-93,3,57,F,Atividade Intensa,161
-93,4,57,F,Atividade Intensa,159
-93,5,57,F,Atividade Intensa,162
-93,6,57,F,Atividade Intensa,156
-93,7,57,F,Atividade Intensa,157
-93,8,57,F,Atividade Intensa,160
-93,9,57,F,Atividade Intensa,159
-94,0,64,M,Repouso,112
-94,1,64,M,Repouso,113
-94,2,64,M,Repouso,116
-94,3,64,M,Repouso,112
-94,4,64,M,Repouso,115
-94,5,64,M,Repouso,113
-94,6,64,M,Repouso,113
-94,7,64,M,Repouso,114
-94,8,64,M,Repouso,117
-94,9,64,M,Repouso,114
-95,0,21,F,Atividade Intensa,175
-95,1,21,F,Atividade Intensa,177
-95,2,21,F,Atividade Intensa,176
-95,3,21,F,Atividade Intensa,179
-95,4,21,F,Atividade Intensa,177
-95,5,21,F,Atividade Intensa,179
-95,6,21,F,Atividade Intensa,178
-95,7,21,F,Atividade Intensa,173
-95,8,21,F,Atividade Intensa,178
-95,9,21,F,Atividade Intensa,179
-96,0,36,M,Atividade Leve,138
-96,1,36,M,Atividade Leve,137
-96,2,36,M,Atividade Leve,135
-96,3,36,M,Atividade Leve,139
-96,4,36,M,Atividade Leve,137
-96,5,36,M,Atividade Leve,139
-96,6,36,M,Atividade Leve,137
-96,7,36,M,Atividade Leve,134
-96,8,36,M,Atividade Leve,139
-96,9,36,M,Atividade Leve,137
-97,0,43,M,Atividade Leve,110
-97,1,43,M,Atividade Leve,111
-97,2,43,M,Atividade Leve,111
-97,3,43,M,Atividade Leve,115
-97,4,43,M,Atividade Leve,112
-97,5,43,M,Atividade Leve,110
-97,6,43,M,Atividade Leve,112
-97,7,43,M,Atividade Leve,112
-97,8,43,M,Atividade Leve,110
-97,9,43,M,Atividade Leve,115
-98,0,73,M,Atividade Intensa,170
-98,1,73,M,Atividade Intensa,172
-98,2,73,M,Atividade Intensa,166
-98,3,73,M,Atividade Intensa,168
-98,4,73,M,Atividade Intensa,172
-98,5,73,M,Atividade Intensa,170
-98,6,73,M,Atividade Intensa,172
-98,7,73,M,Atividade Intensa,172
-98,8,73,M,Atividade Intensa,169
-98,9,73,M,Atividade Intensa,167
-99,0,61,M,Repouso,87
-99,1,61,M,Repouso,82
-99,2,61,M,Repouso,87
-99,3,61,M,Repouso,85
-99,4,61,M,Repouso,85
-99,5,61,M,Repouso,84
-99,6,61,M,Repouso,87
-99,7,61,M,Repouso,85
-99,8,61,M,Repouso,86
-99,9,61,M,Repouso,82
+﻿paciente_id,minuto,idade,sexo,estado_id,estado,batimento_cardiaco
+0,0,62,F,2,Atividade Leve,137
+0,1,62,F,2,Atividade Leve,138
+0,2,62,F,2,Atividade Leve,138
+0,3,62,F,2,Atividade Leve,134
+0,4,62,F,2,Atividade Leve,139
+0,5,62,F,2,Atividade Leve,137
+0,6,62,F,2,Atividade Leve,135
+0,7,62,F,2,Atividade Leve,138
+0,8,62,F,2,Atividade Leve,138
+0,9,62,F,2,Atividade Leve,135
+1,0,51,F,3,Atividade Intensa,180
+1,1,51,F,3,Atividade Intensa,177
+1,2,51,F,3,Atividade Intensa,178
+1,3,51,F,3,Atividade Intensa,179
+1,4,51,F,3,Atividade Intensa,180
+1,5,51,F,3,Atividade Intensa,179
+1,6,51,F,3,Atividade Intensa,180
+1,7,51,F,3,Atividade Intensa,180
+1,8,51,F,3,Atividade Intensa,175
+1,9,51,F,3,Atividade Intensa,177
+2,0,51,F,3,Atividade Intensa,140
+2,1,51,F,3,Atividade Intensa,146
+2,2,51,F,3,Atividade Intensa,140
+2,3,51,F,3,Atividade Intensa,145
+2,4,51,F,3,Atividade Intensa,140
+2,5,51,F,3,Atividade Intensa,145
+2,6,51,F,3,Atividade Intensa,144
+2,7,51,F,3,Atividade Intensa,143
+2,8,51,F,3,Atividade Intensa,140
+2,9,51,F,3,Atividade Intensa,145
+3,0,59,F,3,Atividade Intensa,184
+3,1,59,F,3,Atividade Intensa,185
+3,2,59,F,3,Atividade Intensa,179
+3,3,59,F,3,Atividade Intensa,185
+3,4,59,F,3,Atividade Intensa,180
+3,5,59,F,3,Atividade Intensa,179
+3,6,59,F,3,Atividade Intensa,185
+3,7,59,F,3,Atividade Intensa,184
+3,8,59,F,3,Atividade Intensa,180
+3,9,59,F,3,Atividade Intensa,183
+4,0,60,M,2,Atividade Leve,91
+4,1,60,M,2,Atividade Leve,95
+4,2,60,M,2,Atividade Leve,92
+4,3,60,M,2,Atividade Leve,96
+4,4,60,M,2,Atividade Leve,93
+4,5,60,M,2,Atividade Leve,94
+4,6,60,M,2,Atividade Leve,92
+4,7,60,M,2,Atividade Leve,90
+4,8,60,M,2,Atividade Leve,90
+4,9,60,M,2,Atividade Leve,94
+5,0,56,F,3,Atividade Intensa,166
+5,1,56,F,3,Atividade Intensa,169
+5,2,56,F,3,Atividade Intensa,164
+5,3,56,F,3,Atividade Intensa,165
+5,4,56,F,3,Atividade Intensa,168
+5,5,56,F,3,Atividade Intensa,167
+5,6,56,F,3,Atividade Intensa,165
+5,7,56,F,3,Atividade Intensa,163
+5,8,56,F,3,Atividade Intensa,168
+5,9,56,F,3,Atividade Intensa,167
+6,0,66,F,1,Repouso,69
+6,1,66,F,1,Repouso,69
+6,2,66,F,1,Repouso,69
+6,3,66,F,1,Repouso,70
+6,4,66,F,1,Repouso,68
+6,5,66,F,1,Repouso,70
+6,6,66,F,1,Repouso,70
+6,7,66,F,1,Repouso,66
+6,8,66,F,1,Repouso,66
+6,9,66,F,1,Repouso,71
+7,0,64,F,1,Repouso,138
+7,1,64,F,1,Repouso,133
+7,2,64,F,1,Repouso,133
+7,3,64,F,1,Repouso,138
+7,4,64,F,1,Repouso,138
+7,5,64,F,1,Repouso,133
+7,6,64,F,1,Repouso,138
+7,7,64,F,1,Repouso,138
+7,8,64,F,1,Repouso,138
+7,9,64,F,1,Repouso,137
+8,0,27,F,2,Atividade Leve,131
+8,1,27,F,2,Atividade Leve,128
+8,2,27,F,2,Atividade Leve,127
+8,3,27,F,2,Atividade Leve,131
+8,4,27,F,2,Atividade Leve,131
+8,5,27,F,2,Atividade Leve,126
+8,6,27,F,2,Atividade Leve,129
+8,7,27,F,2,Atividade Leve,131
+8,8,27,F,2,Atividade Leve,126
+8,9,27,F,2,Atividade Leve,125
+9,0,44,F,1,Repouso,68
+9,1,44,F,1,Repouso,71
+9,2,44,F,1,Repouso,72
+9,3,44,F,1,Repouso,67
+9,4,44,F,1,Repouso,67
+9,5,44,F,1,Repouso,68
+9,6,44,F,1,Repouso,70
+9,7,44,F,1,Repouso,71
+9,8,44,F,1,Repouso,70
+9,9,44,F,1,Repouso,67
+10,0,55,F,2,Atividade Leve,132
+10,1,55,F,2,Atividade Leve,130
+10,2,55,F,2,Atividade Leve,128
+10,3,55,F,2,Atividade Leve,130
+10,4,55,F,2,Atividade Leve,132
+10,5,55,F,2,Atividade Leve,127
+10,6,55,F,2,Atividade Leve,128
+10,7,55,F,2,Atividade Leve,131
+10,8,55,F,2,Atividade Leve,130
+10,9,55,F,2,Atividade Leve,128
+11,0,67,F,1,Repouso,82
+11,1,67,F,1,Repouso,78
+11,2,67,F,1,Repouso,79
+11,3,67,F,1,Repouso,76
+11,4,67,F,1,Repouso,78
+11,5,67,F,1,Repouso,79
+11,6,67,F,1,Repouso,78
+11,7,67,F,1,Repouso,80
+11,8,67,F,1,Repouso,79
+11,9,67,F,1,Repouso,80
+12,0,44,F,3,Atividade Intensa,126
+12,1,44,F,3,Atividade Intensa,128
+12,2,44,F,3,Atividade Intensa,126
+12,3,44,F,3,Atividade Intensa,127
+12,4,44,F,3,Atividade Intensa,124
+12,5,44,F,3,Atividade Intensa,125
+12,6,44,F,3,Atividade Intensa,124
+12,7,44,F,3,Atividade Intensa,124
+12,8,44,F,3,Atividade Intensa,127
+12,9,44,F,3,Atividade Intensa,129
+13,0,65,F,1,Repouso,118
+13,1,65,F,1,Repouso,119
+13,2,65,F,1,Repouso,118
+13,3,65,F,1,Repouso,118
+13,4,65,F,1,Repouso,117
+13,5,65,F,1,Repouso,116
+13,6,65,F,1,Repouso,118
+13,7,65,F,1,Repouso,114
+13,8,65,F,1,Repouso,115
+13,9,65,F,1,Repouso,118
+14,0,48,M,3,Atividade Intensa,156
+14,1,48,M,3,Atividade Intensa,153
+14,2,48,M,3,Atividade Intensa,157
+14,3,48,M,3,Atividade Intensa,157
+14,4,48,M,3,Atividade Intensa,157
+14,5,48,M,3,Atividade Intensa,153
+14,6,48,M,3,Atividade Intensa,157
+14,7,48,M,3,Atividade Intensa,155
+14,8,48,M,3,Atividade Intensa,156
+14,9,48,M,3,Atividade Intensa,153
+15,0,53,M,1,Repouso,129
+15,1,53,M,1,Repouso,127
+15,2,53,M,1,Repouso,124
+15,3,53,M,1,Repouso,127
+15,4,53,M,1,Repouso,128
+15,5,53,M,1,Repouso,130
+15,6,53,M,1,Repouso,125
+15,7,53,M,1,Repouso,128
+15,8,53,M,1,Repouso,126
+15,9,53,M,1,Repouso,125
+16,0,33,M,2,Atividade Leve,119
+16,1,33,M,2,Atividade Leve,116
+16,2,33,M,2,Atividade Leve,117
+16,3,33,M,2,Atividade Leve,118
+16,4,33,M,2,Atividade Leve,118
+16,5,33,M,2,Atividade Leve,117
+16,6,33,M,2,Atividade Leve,114
+16,7,33,M,2,Atividade Leve,115
+16,8,33,M,2,Atividade Leve,119
+16,9,33,M,2,Atividade Leve,119
+17,0,40,F,3,Atividade Intensa,184
+17,1,40,F,3,Atividade Intensa,186
+17,2,40,F,3,Atividade Intensa,182
+17,3,40,F,3,Atividade Intensa,186
+17,4,40,F,3,Atividade Intensa,187
+17,5,40,F,3,Atividade Intensa,185
+17,6,40,F,3,Atividade Intensa,181
+17,7,40,F,3,Atividade Intensa,187
+17,8,40,F,3,Atividade Intensa,184
+17,9,40,F,3,Atividade Intensa,185
+18,0,26,M,2,Atividade Leve,127
+18,1,26,M,2,Atividade Leve,131
+18,2,26,M,2,Atividade Leve,125
+18,3,26,M,2,Atividade Leve,128
+18,4,26,M,2,Atividade Leve,125
+18,5,26,M,2,Atividade Leve,127
+18,6,26,M,2,Atividade Leve,125
+18,7,26,M,2,Atividade Leve,128
+18,8,26,M,2,Atividade Leve,125
+18,9,26,M,2,Atividade Leve,126
+19,0,22,F,3,Atividade Intensa,140
+19,1,22,F,3,Atividade Intensa,138
+19,2,22,F,3,Atividade Intensa,143
+19,3,22,F,3,Atividade Intensa,139
+19,4,22,F,3,Atividade Intensa,140
+19,5,22,F,3,Atividade Intensa,139
+19,6,22,F,3,Atividade Intensa,139
+19,7,22,F,3,Atividade Intensa,140
+19,8,22,F,3,Atividade Intensa,143
+19,9,22,F,3,Atividade Intensa,141
+20,0,80,M,2,Atividade Leve,116
+20,1,80,M,2,Atividade Leve,115
+20,2,80,M,2,Atividade Leve,119
+20,3,80,M,2,Atividade Leve,114
+20,4,80,M,2,Atividade Leve,115
+20,5,80,M,2,Atividade Leve,118
+20,6,80,M,2,Atividade Leve,117
+20,7,80,M,2,Atividade Leve,120
+20,8,80,M,2,Atividade Leve,119
+20,9,80,M,2,Atividade Leve,116
+21,0,65,F,1,Repouso,118
+21,1,65,F,1,Repouso,118
+21,2,65,F,1,Repouso,116
+21,3,65,F,1,Repouso,113
+21,4,65,F,1,Repouso,119
+21,5,65,F,1,Repouso,113
+21,6,65,F,1,Repouso,117
+21,7,65,F,1,Repouso,114
+21,8,65,F,1,Repouso,116
+21,9,65,F,1,Repouso,117
+22,0,37,F,3,Atividade Intensa,137
+22,1,37,F,3,Atividade Intensa,135
+22,2,37,F,3,Atividade Intensa,134
+22,3,37,F,3,Atividade Intensa,135
+22,4,37,F,3,Atividade Intensa,138
+22,5,37,F,3,Atividade Intensa,135
+22,6,37,F,3,Atividade Intensa,134
+22,7,37,F,3,Atividade Intensa,136
+22,8,37,F,3,Atividade Intensa,134
+22,9,37,F,3,Atividade Intensa,137
+23,0,38,F,1,Repouso,102
+23,1,38,F,1,Repouso,106
+23,2,38,F,1,Repouso,101
+23,3,38,F,1,Repouso,101
+23,4,38,F,1,Repouso,101
+23,5,38,F,1,Repouso,101
+23,6,38,F,1,Repouso,105
+23,7,38,F,1,Repouso,101
+23,8,38,F,1,Repouso,101
+23,9,38,F,1,Repouso,101
+24,0,49,F,1,Repouso,76
+24,1,49,F,1,Repouso,71
+24,2,49,F,1,Repouso,75
+24,3,49,F,1,Repouso,76
+24,4,49,F,1,Repouso,71
+24,5,49,F,1,Repouso,72
+24,6,49,F,1,Repouso,71
+24,7,49,F,1,Repouso,76
+24,8,49,F,1,Repouso,76
+24,9,49,F,1,Repouso,77
+25,0,46,M,2,Atividade Leve,127
+25,1,46,M,2,Atividade Leve,125
+25,2,46,M,2,Atividade Leve,122
+25,3,46,M,2,Atividade Leve,124
+25,4,46,M,2,Atividade Leve,128
+25,5,46,M,2,Atividade Leve,123
+25,6,46,M,2,Atividade Leve,122
+25,7,46,M,2,Atividade Leve,122
+25,8,46,M,2,Atividade Leve,127
+25,9,46,M,2,Atividade Leve,127
+26,0,35,F,3,Atividade Intensa,135
+26,1,35,F,3,Atividade Intensa,135
+26,2,35,F,3,Atividade Intensa,132
+26,3,35,F,3,Atividade Intensa,133
+26,4,35,F,3,Atividade Intensa,130
+26,5,35,F,3,Atividade Intensa,132
+26,6,35,F,3,Atividade Intensa,134
+26,7,35,F,3,Atividade Intensa,136
+26,8,35,F,3,Atividade Intensa,135
+26,9,35,F,3,Atividade Intensa,132
+27,0,47,M,1,Repouso,78
+27,1,47,M,1,Repouso,78
+27,2,47,M,1,Repouso,81
+27,3,47,M,1,Repouso,81
+27,4,47,M,1,Repouso,80
+27,5,47,M,1,Repouso,76
+27,6,47,M,1,Repouso,80
+27,7,47,M,1,Repouso,78
+27,8,47,M,1,Repouso,76
+27,9,47,M,1,Repouso,78
+28,0,42,F,1,Repouso,106
+28,1,42,F,1,Repouso,105
+28,2,42,F,1,Repouso,109
+28,3,42,F,1,Repouso,111
+28,4,42,F,1,Repouso,110
+28,5,42,F,1,Repouso,108
+28,6,42,F,1,Repouso,105
+28,7,42,F,1,Repouso,105
+28,8,42,F,1,Repouso,109
+28,9,42,F,1,Repouso,111
+29,0,21,F,3,Atividade Intensa,186
+29,1,21,F,3,Atividade Intensa,181
+29,2,21,F,3,Atividade Intensa,182
+29,3,21,F,3,Atividade Intensa,187
+29,4,21,F,3,Atividade Intensa,185
+29,5,21,F,3,Atividade Intensa,185
+29,6,21,F,3,Atividade Intensa,182
+29,7,21,F,3,Atividade Intensa,185
+29,8,21,F,3,Atividade Intensa,182
+29,9,21,F,3,Atividade Intensa,184
+30,0,79,F,1,Repouso,92
+30,1,79,F,1,Repouso,91
+30,2,79,F,1,Repouso,91
+30,3,79,F,1,Repouso,94
+30,4,79,F,1,Repouso,91
+30,5,79,F,1,Repouso,92
+30,6,79,F,1,Repouso,92
+30,7,79,F,1,Repouso,93
+30,8,79,F,1,Repouso,91
+30,9,79,F,1,Repouso,91
+31,0,45,F,2,Atividade Leve,147
+31,1,45,F,2,Atividade Leve,151
+31,2,45,F,2,Atividade Leve,149
+31,3,45,F,2,Atividade Leve,150
+31,4,45,F,2,Atividade Leve,146
+31,5,45,F,2,Atividade Leve,148
+31,6,45,F,2,Atividade Leve,149
+31,7,45,F,2,Atividade Leve,151
+31,8,45,F,2,Atividade Leve,149
+31,9,45,F,2,Atividade Leve,148
+32,0,72,M,3,Atividade Intensa,113
+32,1,72,M,3,Atividade Intensa,112
+32,2,72,M,3,Atividade Intensa,113
+32,3,72,M,3,Atividade Intensa,116
+32,4,72,M,3,Atividade Intensa,117
+32,5,72,M,3,Atividade Intensa,111
+32,6,72,M,3,Atividade Intensa,111
+32,7,72,M,3,Atividade Intensa,116
+32,8,72,M,3,Atividade Intensa,113
+32,9,72,M,3,Atividade Intensa,117
+33,0,78,F,1,Repouso,68
+33,1,78,F,1,Repouso,69
+33,2,78,F,1,Repouso,63
+33,3,78,F,1,Repouso,69
+33,4,78,F,1,Repouso,63
+33,5,78,F,1,Repouso,65
+33,6,78,F,1,Repouso,65
+33,7,78,F,1,Repouso,63
+33,8,78,F,1,Repouso,68
+33,9,78,F,1,Repouso,64
+34,0,54,M,3,Atividade Intensa,155
+34,1,54,M,3,Atividade Intensa,156
+34,2,54,M,3,Atividade Intensa,155
+34,3,54,M,3,Atividade Intensa,156
+34,4,54,M,3,Atividade Intensa,152
+34,5,54,M,3,Atividade Intensa,157
+34,6,54,M,3,Atividade Intensa,156
+34,7,54,M,3,Atividade Intensa,153
+34,8,54,M,3,Atividade Intensa,152
+34,9,54,M,3,Atividade Intensa,153
+35,0,34,M,2,Atividade Leve,155
+35,1,34,M,2,Atividade Leve,154
+35,2,34,M,2,Atividade Leve,152
+35,3,34,M,2,Atividade Leve,151
+35,4,34,M,2,Atividade Leve,155
+35,5,34,M,2,Atividade Leve,153
+35,6,34,M,2,Atividade Leve,154
+35,7,34,M,2,Atividade Leve,152
+35,8,34,M,2,Atividade Leve,151
+35,9,34,M,2,Atividade Leve,149
+36,0,29,M,3,Atividade Intensa,165
+36,1,29,M,3,Atividade Intensa,160
+36,2,29,M,3,Atividade Intensa,164
+36,3,29,M,3,Atividade Intensa,163
+36,4,29,M,3,Atividade Intensa,162
+36,5,29,M,3,Atividade Intensa,164
+36,6,29,M,3,Atividade Intensa,163
+36,7,29,M,3,Atividade Intensa,165
+36,8,29,M,3,Atividade Intensa,163
+36,9,29,M,3,Atividade Intensa,159
+37,0,60,F,3,Atividade Intensa,163
+37,1,60,F,3,Atividade Intensa,168
+37,2,60,F,3,Atividade Intensa,162
+37,3,60,F,3,Atividade Intensa,168
+37,4,60,F,3,Atividade Intensa,165
+37,5,60,F,3,Atividade Intensa,162
+37,6,60,F,3,Atividade Intensa,167
+37,7,60,F,3,Atividade Intensa,162
+37,8,60,F,3,Atividade Intensa,166
+37,9,60,F,3,Atividade Intensa,166
+38,0,41,F,2,Atividade Leve,142
+38,1,41,F,2,Atividade Leve,144
+38,2,41,F,2,Atividade Leve,142
+38,3,41,F,2,Atividade Leve,146
+38,4,41,F,2,Atividade Leve,141
+38,5,41,F,2,Atividade Leve,142
+38,6,41,F,2,Atividade Leve,141
+38,7,41,F,2,Atividade Leve,146
+38,8,41,F,2,Atividade Leve,144
+38,9,41,F,2,Atividade Leve,142
+39,0,45,M,1,Repouso,114
+39,1,45,M,1,Repouso,114
+39,2,45,M,1,Repouso,109
+39,3,45,M,1,Repouso,114
+39,4,45,M,1,Repouso,108
+39,5,45,M,1,Repouso,109
+39,6,45,M,1,Repouso,112
+39,7,45,M,1,Repouso,108
+39,8,45,M,1,Repouso,109
+39,9,45,M,1,Repouso,113
+40,0,21,M,2,Atividade Leve,104
+40,1,21,M,2,Atividade Leve,100
+40,2,21,M,2,Atividade Leve,102
+40,3,21,M,2,Atividade Leve,106
+40,4,21,M,2,Atividade Leve,103
+40,5,21,M,2,Atividade Leve,104
+40,6,21,M,2,Atividade Leve,104
+40,7,21,M,2,Atividade Leve,103
+40,8,21,M,2,Atividade Leve,103
+40,9,21,M,2,Atividade Leve,105
+41,0,63,M,3,Atividade Intensa,120
+41,1,63,M,3,Atividade Intensa,122
+41,2,63,M,3,Atividade Intensa,124
+41,3,63,M,3,Atividade Intensa,123
+41,4,63,M,3,Atividade Intensa,125
+41,5,63,M,3,Atividade Intensa,122
+41,6,63,M,3,Atividade Intensa,121
+41,7,63,M,3,Atividade Intensa,121
+41,8,63,M,3,Atividade Intensa,124
+41,9,63,M,3,Atividade Intensa,125
+42,0,49,F,2,Atividade Leve,102
+42,1,49,F,2,Atividade Leve,99
+42,2,49,F,2,Atividade Leve,99
+42,3,49,F,2,Atividade Leve,98
+42,4,49,F,2,Atividade Leve,102
+42,5,49,F,2,Atividade Leve,100
+42,6,49,F,2,Atividade Leve,102
+42,7,49,F,2,Atividade Leve,101
+42,8,49,F,2,Atividade Leve,101
+42,9,49,F,2,Atividade Leve,101
+43,0,23,F,2,Atividade Leve,109
+43,1,23,F,2,Atividade Leve,106
+43,2,23,F,2,Atividade Leve,110
+43,3,23,F,2,Atividade Leve,107
+43,4,23,F,2,Atividade Leve,111
+43,5,23,F,2,Atividade Leve,108
+43,6,23,F,2,Atividade Leve,112
+43,7,23,F,2,Atividade Leve,110
+43,8,23,F,2,Atividade Leve,106
+43,9,23,F,2,Atividade Leve,106
+44,0,60,M,3,Atividade Intensa,139
+44,1,60,M,3,Atividade Intensa,139
+44,2,60,M,3,Atividade Intensa,136
+44,3,60,M,3,Atividade Intensa,136
+44,4,60,M,3,Atividade Intensa,138
+44,5,60,M,3,Atividade Intensa,137
+44,6,60,M,3,Atividade Intensa,137
+44,7,60,M,3,Atividade Intensa,134
+44,8,60,M,3,Atividade Intensa,139
+44,9,60,M,3,Atividade Intensa,138
+45,0,59,F,2,Atividade Leve,141
+45,1,59,F,2,Atividade Leve,147
+45,2,59,F,2,Atividade Leve,142
+45,3,59,F,2,Atividade Leve,144
+45,4,59,F,2,Atividade Leve,142
+45,5,59,F,2,Atividade Leve,143
+45,6,59,F,2,Atividade Leve,141
+45,7,59,F,2,Atividade Leve,141
+45,8,59,F,2,Atividade Leve,147
+45,9,59,F,2,Atividade Leve,143
+46,0,69,M,2,Atividade Leve,150
+46,1,69,M,2,Atividade Leve,150
+46,2,69,M,2,Atividade Leve,150
+46,3,69,M,2,Atividade Leve,147
+46,4,69,M,2,Atividade Leve,146
+46,5,69,M,2,Atividade Leve,150
+46,6,69,M,2,Atividade Leve,150
+46,7,69,M,2,Atividade Leve,146
+46,8,69,M,2,Atividade Leve,150
+46,9,69,M,2,Atividade Leve,145
+47,0,70,M,1,Repouso,63
+47,1,70,M,1,Repouso,65
+47,2,70,M,1,Repouso,65
+47,3,70,M,1,Repouso,62
+47,4,70,M,1,Repouso,67
+47,5,70,M,1,Repouso,66
+47,6,70,M,1,Repouso,63
+47,7,70,M,1,Repouso,62
+47,8,70,M,1,Repouso,65
+47,9,70,M,1,Repouso,61
+48,0,71,M,2,Atividade Leve,102
+48,1,71,M,2,Atividade Leve,100
+48,2,71,M,2,Atividade Leve,100
+48,3,71,M,2,Atividade Leve,102
+48,4,71,M,2,Atividade Leve,104
+48,5,71,M,2,Atividade Leve,106
+48,6,71,M,2,Atividade Leve,103
+48,7,71,M,2,Atividade Leve,105
+48,8,71,M,2,Atividade Leve,106
+48,9,71,M,2,Atividade Leve,101
+49,0,62,F,1,Repouso,102
+49,1,62,F,1,Repouso,102
+49,2,62,F,1,Repouso,108
+49,3,62,F,1,Repouso,103
+49,4,62,F,1,Repouso,103
+49,5,62,F,1,Repouso,102
+49,6,62,F,1,Repouso,104
+49,7,62,F,1,Repouso,102
+49,8,62,F,1,Repouso,105
+49,9,62,F,1,Repouso,102
+50,0,71,M,1,Repouso,111
+50,1,71,M,1,Repouso,111
+50,2,71,M,1,Repouso,111
+50,3,71,M,1,Repouso,114
+50,4,71,M,1,Repouso,112
+50,5,71,M,1,Repouso,111
+50,6,71,M,1,Repouso,113
+50,7,71,M,1,Repouso,111
+50,8,71,M,1,Repouso,112
+50,9,71,M,1,Repouso,111
+51,0,76,M,3,Atividade Intensa,135
+51,1,76,M,3,Atividade Intensa,139
+51,2,76,M,3,Atividade Intensa,139
+51,3,76,M,3,Atividade Intensa,138
+51,4,76,M,3,Atividade Intensa,135
+51,5,76,M,3,Atividade Intensa,136
+51,6,76,M,3,Atividade Intensa,137
+51,7,76,M,3,Atividade Intensa,134
+51,8,76,M,3,Atividade Intensa,138
+51,9,76,M,3,Atividade Intensa,135
+52,0,65,M,2,Atividade Leve,102
+52,1,65,M,2,Atividade Leve,105
+52,2,65,M,2,Atividade Leve,105
+52,3,65,M,2,Atividade Leve,101
+52,4,65,M,2,Atividade Leve,102
+52,5,65,M,2,Atividade Leve,104
+52,6,65,M,2,Atividade Leve,104
+52,7,65,M,2,Atividade Leve,103
+52,8,65,M,2,Atividade Leve,100
+52,9,65,M,2,Atividade Leve,101
+53,0,36,M,2,Atividade Leve,154
+53,1,36,M,2,Atividade Leve,159
+53,2,36,M,2,Atividade Leve,158
+53,3,36,M,2,Atividade Leve,155
+53,4,36,M,2,Atividade Leve,156
+53,5,36,M,2,Atividade Leve,155
+53,6,36,M,2,Atividade Leve,158
+53,7,36,M,2,Atividade Leve,158
+53,8,36,M,2,Atividade Leve,154
+53,9,36,M,2,Atividade Leve,159
+54,0,67,F,1,Repouso,65
+54,1,67,F,1,Repouso,70
+54,2,67,F,1,Repouso,65
+54,3,67,F,1,Repouso,67
+54,4,67,F,1,Repouso,68
+54,5,67,F,1,Repouso,67
+54,6,67,F,1,Repouso,65
+54,7,67,F,1,Repouso,71
+54,8,67,F,1,Repouso,65
+54,9,67,F,1,Repouso,67
+55,0,41,F,2,Atividade Leve,129
+55,1,41,F,2,Atividade Leve,130
+55,2,41,F,2,Atividade Leve,126
+55,3,41,F,2,Atividade Leve,127
+55,4,41,F,2,Atividade Leve,127
+55,5,41,F,2,Atividade Leve,131
+55,6,41,F,2,Atividade Leve,132
+55,7,41,F,2,Atividade Leve,131
+55,8,41,F,2,Atividade Leve,131
+55,9,41,F,2,Atividade Leve,132
+56,0,33,M,2,Atividade Leve,102
+56,1,33,M,2,Atividade Leve,103
+56,2,33,M,2,Atividade Leve,101
+56,3,33,M,2,Atividade Leve,101
+56,4,33,M,2,Atividade Leve,104
+56,5,33,M,2,Atividade Leve,105
+56,6,33,M,2,Atividade Leve,101
+56,7,33,M,2,Atividade Leve,101
+56,8,33,M,2,Atividade Leve,103
+56,9,33,M,2,Atividade Leve,104
+57,0,80,M,2,Atividade Leve,118
+57,1,80,M,2,Atividade Leve,118
+57,2,80,M,2,Atividade Leve,121
+57,3,80,M,2,Atividade Leve,116
+57,4,80,M,2,Atividade Leve,116
+57,5,80,M,2,Atividade Leve,120
+57,6,80,M,2,Atividade Leve,121
+57,7,80,M,2,Atividade Leve,116
+57,8,80,M,2,Atividade Leve,115
+57,9,80,M,2,Atividade Leve,121
+58,0,34,F,1,Repouso,113
+58,1,34,F,1,Repouso,114
+58,2,34,F,1,Repouso,118
+58,3,34,F,1,Repouso,116
+58,4,34,F,1,Repouso,114
+58,5,34,F,1,Repouso,117
+58,6,34,F,1,Repouso,118
+58,7,34,F,1,Repouso,118
+58,8,34,F,1,Repouso,114
+58,9,34,F,1,Repouso,113
+59,0,77,F,1,Repouso,97
+59,1,77,F,1,Repouso,97
+59,2,77,F,1,Repouso,100
+59,3,77,F,1,Repouso,99
+59,4,77,F,1,Repouso,99
+59,5,77,F,1,Repouso,95
+59,6,77,F,1,Repouso,99
+59,7,77,F,1,Repouso,95
+59,8,77,F,1,Repouso,97
+59,9,77,F,1,Repouso,100
+60,0,35,F,1,Repouso,91
+60,1,35,F,1,Repouso,94
+60,2,35,F,1,Repouso,95
+60,3,35,F,1,Repouso,92
+60,4,35,F,1,Repouso,95
+60,5,35,F,1,Repouso,93
+60,6,35,F,1,Repouso,93
+60,7,35,F,1,Repouso,91
+60,8,35,F,1,Repouso,93
+60,9,35,F,1,Repouso,93
+61,0,65,M,1,Repouso,124
+61,1,65,M,1,Repouso,126
+61,2,65,M,1,Repouso,127
+61,3,65,M,1,Repouso,128
+61,4,65,M,1,Repouso,125
+61,5,65,M,1,Repouso,127
+61,6,65,M,1,Repouso,127
+61,7,65,M,1,Repouso,126
+61,8,65,M,1,Repouso,126
+61,9,65,M,1,Repouso,127
+62,0,38,M,1,Repouso,129
+62,1,38,M,1,Repouso,135
+62,2,38,M,1,Repouso,135
+62,3,38,M,1,Repouso,131
+62,4,38,M,1,Repouso,134
+62,5,38,M,1,Repouso,133
+62,6,38,M,1,Repouso,132
+62,7,38,M,1,Repouso,130
+62,8,38,M,1,Repouso,134
+62,9,38,M,1,Repouso,134
+63,0,66,F,3,Atividade Intensa,110
+63,1,66,F,3,Atividade Intensa,112
+63,2,66,F,3,Atividade Intensa,112
+63,3,66,F,3,Atividade Intensa,111
+63,4,66,F,3,Atividade Intensa,110
+63,5,66,F,3,Atividade Intensa,111
+63,6,66,F,3,Atividade Intensa,111
+63,7,66,F,3,Atividade Intensa,113
+63,8,66,F,3,Atividade Intensa,114
+63,9,66,F,3,Atividade Intensa,110
+64,0,25,F,3,Atividade Intensa,167
+64,1,25,F,3,Atividade Intensa,164
+64,2,25,F,3,Atividade Intensa,164
+64,3,25,F,3,Atividade Intensa,164
+64,4,25,F,3,Atividade Intensa,164
+64,5,25,F,3,Atividade Intensa,168
+64,6,25,F,3,Atividade Intensa,167
+64,7,25,F,3,Atividade Intensa,165
+64,8,25,F,3,Atividade Intensa,166
+64,9,25,F,3,Atividade Intensa,167
+65,0,63,F,3,Atividade Intensa,134
+65,1,63,F,3,Atividade Intensa,136
+65,2,63,F,3,Atividade Intensa,136
+65,3,63,F,3,Atividade Intensa,138
+65,4,63,F,3,Atividade Intensa,134
+65,5,63,F,3,Atividade Intensa,135
+65,6,63,F,3,Atividade Intensa,136
+65,7,63,F,3,Atividade Intensa,134
+65,8,63,F,3,Atividade Intensa,137
+65,9,63,F,3,Atividade Intensa,137
+66,0,38,M,3,Atividade Intensa,179
+66,1,38,M,3,Atividade Intensa,178
+66,2,38,M,3,Atividade Intensa,179
+66,3,38,M,3,Atividade Intensa,178
+66,4,38,M,3,Atividade Intensa,173
+66,5,38,M,3,Atividade Intensa,176
+66,6,38,M,3,Atividade Intensa,178
+66,7,38,M,3,Atividade Intensa,175
+66,8,38,M,3,Atividade Intensa,174
+66,9,38,M,3,Atividade Intensa,174
+67,0,76,F,3,Atividade Intensa,164
+67,1,76,F,3,Atividade Intensa,164
+67,2,76,F,3,Atividade Intensa,167
+67,3,76,F,3,Atividade Intensa,166
+67,4,76,F,3,Atividade Intensa,163
+67,5,76,F,3,Atividade Intensa,167
+67,6,76,F,3,Atividade Intensa,164
+67,7,76,F,3,Atividade Intensa,168
+67,8,76,F,3,Atividade Intensa,164
+67,9,76,F,3,Atividade Intensa,164
+68,0,55,M,1,Repouso,123
+68,1,55,M,1,Repouso,121
+68,2,55,M,1,Repouso,125
+68,3,55,M,1,Repouso,121
+68,4,55,M,1,Repouso,126
+68,5,55,M,1,Repouso,122
+68,6,55,M,1,Repouso,126
+68,7,55,M,1,Repouso,121
+68,8,55,M,1,Repouso,126
+68,9,55,M,1,Repouso,122
+69,0,47,M,2,Atividade Leve,146
+69,1,47,M,2,Atividade Leve,150
+69,2,47,M,2,Atividade Leve,145
+69,3,47,M,2,Atividade Leve,149
+69,4,47,M,2,Atividade Leve,148
+69,5,47,M,2,Atividade Leve,146
+69,6,47,M,2,Atividade Leve,146
+69,7,47,M,2,Atividade Leve,145
+69,8,47,M,2,Atividade Leve,151
+69,9,47,M,2,Atividade Leve,149
+70,0,29,M,2,Atividade Leve,141
+70,1,29,M,2,Atividade Leve,145
+70,2,29,M,2,Atividade Leve,145
+70,3,29,M,2,Atividade Leve,141
+70,4,29,M,2,Atividade Leve,144
+70,5,29,M,2,Atividade Leve,146
+70,6,29,M,2,Atividade Leve,147
+70,7,29,M,2,Atividade Leve,142
+70,8,29,M,2,Atividade Leve,142
+70,9,29,M,2,Atividade Leve,143
+71,0,29,M,3,Atividade Intensa,150
+71,1,29,M,3,Atividade Intensa,145
+71,2,29,M,3,Atividade Intensa,145
+71,3,29,M,3,Atividade Intensa,150
+71,4,29,M,3,Atividade Intensa,147
+71,5,29,M,3,Atividade Intensa,149
+71,6,29,M,3,Atividade Intensa,145
+71,7,29,M,3,Atividade Intensa,150
+71,8,29,M,3,Atividade Intensa,146
+71,9,29,M,3,Atividade Intensa,148
+72,0,60,F,1,Repouso,88
+72,1,60,F,1,Repouso,89
+72,2,60,F,1,Repouso,85
+72,3,60,F,1,Repouso,86
+72,4,60,F,1,Repouso,89
+72,5,60,F,1,Repouso,88
+72,6,60,F,1,Repouso,87
+72,7,60,F,1,Repouso,86
+72,8,60,F,1,Repouso,84
+72,9,60,F,1,Repouso,84
+73,0,63,M,1,Repouso,121
+73,1,63,M,1,Repouso,122
+73,2,63,M,1,Repouso,121
+73,3,63,M,1,Repouso,122
+73,4,63,M,1,Repouso,121
+73,5,63,M,1,Repouso,121
+73,6,63,M,1,Repouso,122
+73,7,63,M,1,Repouso,124
+73,8,63,M,1,Repouso,121
+73,9,63,M,1,Repouso,122
+74,0,50,M,1,Repouso,138
+74,1,50,M,1,Repouso,136
+74,2,50,M,1,Repouso,134
+74,3,50,M,1,Repouso,134
+74,4,50,M,1,Repouso,133
+74,5,50,M,1,Repouso,139
+74,6,50,M,1,Repouso,139
+74,7,50,M,1,Repouso,133
+74,8,50,M,1,Repouso,136
+74,9,50,M,1,Repouso,135
+75,0,30,F,2,Atividade Leve,146
+75,1,30,F,2,Atividade Leve,146
+75,2,30,F,2,Atividade Leve,143
+75,3,30,F,2,Atividade Leve,145
+75,4,30,F,2,Atividade Leve,143
+75,5,30,F,2,Atividade Leve,145
+75,6,30,F,2,Atividade Leve,147
+75,7,30,F,2,Atividade Leve,146
+75,8,30,F,2,Atividade Leve,143
+75,9,30,F,2,Atividade Leve,147
+76,0,20,F,3,Atividade Intensa,174
+76,1,20,F,3,Atividade Intensa,176
+76,2,20,F,3,Atividade Intensa,174
+76,3,20,F,3,Atividade Intensa,179
+76,4,20,F,3,Atividade Intensa,173
+76,5,20,F,3,Atividade Intensa,177
+76,6,20,F,3,Atividade Intensa,178
+76,7,20,F,3,Atividade Intensa,176
+76,8,20,F,3,Atividade Intensa,178
+76,9,20,F,3,Atividade Intensa,177
+77,0,23,M,1,Repouso,119
+77,1,23,M,1,Repouso,118
+77,2,23,M,1,Repouso,115
+77,3,23,M,1,Repouso,116
+77,4,23,M,1,Repouso,119
+77,5,23,M,1,Repouso,115
+77,6,23,M,1,Repouso,119
+77,7,23,M,1,Repouso,119
+77,8,23,M,1,Repouso,117
+77,9,23,M,1,Repouso,119
+78,0,30,M,2,Atividade Leve,121
+78,1,30,M,2,Atividade Leve,121
+78,2,30,M,2,Atividade Leve,123
+78,3,30,M,2,Atividade Leve,124
+78,4,30,M,2,Atividade Leve,121
+78,5,30,M,2,Atividade Leve,124
+78,6,30,M,2,Atividade Leve,124
+78,7,30,M,2,Atividade Leve,123
+78,8,30,M,2,Atividade Leve,121
+78,9,30,M,2,Atividade Leve,124
+79,0,22,F,1,Repouso,107
+79,1,22,F,1,Repouso,107
+79,2,22,F,1,Repouso,112
+79,3,22,F,1,Repouso,110
+79,4,22,F,1,Repouso,110
+79,5,22,F,1,Repouso,109
+79,6,22,F,1,Repouso,110
+79,7,22,F,1,Repouso,112
+79,8,22,F,1,Repouso,107
+79,9,22,F,1,Repouso,110
+80,0,72,M,2,Atividade Leve,127
+80,1,72,M,2,Atividade Leve,124
+80,2,72,M,2,Atividade Leve,124
+80,3,72,M,2,Atividade Leve,124
+80,4,72,M,2,Atividade Leve,124
+80,5,72,M,2,Atividade Leve,128
+80,6,72,M,2,Atividade Leve,128
+80,7,72,M,2,Atividade Leve,127
+80,8,72,M,2,Atividade Leve,127
+80,9,72,M,2,Atividade Leve,125
+81,0,72,M,2,Atividade Leve,122
+81,1,72,M,2,Atividade Leve,121
+81,2,72,M,2,Atividade Leve,126
+81,3,72,M,2,Atividade Leve,122
+81,4,72,M,2,Atividade Leve,123
+81,5,72,M,2,Atividade Leve,126
+81,6,72,M,2,Atividade Leve,124
+81,7,72,M,2,Atividade Leve,125
+81,8,72,M,2,Atividade Leve,120
+81,9,72,M,2,Atividade Leve,120
+82,0,43,M,1,Repouso,70
+82,1,43,M,1,Repouso,72
+82,2,43,M,1,Repouso,68
+82,3,43,M,1,Repouso,72
+82,4,43,M,1,Repouso,71
+82,5,43,M,1,Repouso,74
+82,6,43,M,1,Repouso,68
+82,7,43,M,1,Repouso,71
+82,8,43,M,1,Repouso,71
+82,9,43,M,1,Repouso,73
+83,0,35,F,2,Atividade Leve,101
+83,1,35,F,2,Atividade Leve,101
+83,2,35,F,2,Atividade Leve,103
+83,3,35,F,2,Atividade Leve,106
+83,4,35,F,2,Atividade Leve,105
+83,5,35,F,2,Atividade Leve,103
+83,6,35,F,2,Atividade Leve,106
+83,7,35,F,2,Atividade Leve,102
+83,8,35,F,2,Atividade Leve,107
+83,9,35,F,2,Atividade Leve,102
+84,0,56,M,2,Atividade Leve,151
+84,1,56,M,2,Atividade Leve,152
+84,2,56,M,2,Atividade Leve,153
+84,3,56,M,2,Atividade Leve,153
+84,4,56,M,2,Atividade Leve,152
+84,5,56,M,2,Atividade Leve,155
+84,6,56,M,2,Atividade Leve,152
+84,7,56,M,2,Atividade Leve,156
+84,8,56,M,2,Atividade Leve,157
+84,9,56,M,2,Atividade Leve,151
+85,0,73,F,1,Repouso,72
+85,1,73,F,1,Repouso,69
+85,2,73,F,1,Repouso,69
+85,3,73,F,1,Repouso,68
+85,4,73,F,1,Repouso,72
+85,5,73,F,1,Repouso,70
+85,6,73,F,1,Repouso,72
+85,7,73,F,1,Repouso,73
+85,8,73,F,1,Repouso,68
+85,9,73,F,1,Repouso,68
+86,0,20,F,1,Repouso,140
+86,1,20,F,1,Repouso,135
+86,2,20,F,1,Repouso,140
+86,3,20,F,1,Repouso,140
+86,4,20,F,1,Repouso,137
+86,5,20,F,1,Repouso,140
+86,6,20,F,1,Repouso,137
+86,7,20,F,1,Repouso,140
+86,8,20,F,1,Repouso,136
+86,9,20,F,1,Repouso,140
+87,0,59,F,2,Atividade Leve,137
+87,1,59,F,2,Atividade Leve,132
+87,2,59,F,2,Atividade Leve,136
+87,3,59,F,2,Atividade Leve,136
+87,4,59,F,2,Atividade Leve,132
+87,5,59,F,2,Atividade Leve,133
+87,6,59,F,2,Atividade Leve,138
+87,7,59,F,2,Atividade Leve,133
+87,8,59,F,2,Atividade Leve,132
+87,9,59,F,2,Atividade Leve,135
+88,0,44,M,2,Atividade Leve,120
+88,1,44,M,2,Atividade Leve,120
+88,2,44,M,2,Atividade Leve,120
+88,3,44,M,2,Atividade Leve,115
+88,4,44,M,2,Atividade Leve,118
+88,5,44,M,2,Atividade Leve,115
+88,6,44,M,2,Atividade Leve,120
+88,7,44,M,2,Atividade Leve,119
+88,8,44,M,2,Atividade Leve,120
+88,9,44,M,2,Atividade Leve,120
+89,0,32,F,3,Atividade Intensa,176
+89,1,32,F,3,Atividade Intensa,171
+89,2,32,F,3,Atividade Intensa,174
+89,3,32,F,3,Atividade Intensa,171
+89,4,32,F,3,Atividade Intensa,172
+89,5,32,F,3,Atividade Intensa,175
+89,6,32,F,3,Atividade Intensa,172
+89,7,32,F,3,Atividade Intensa,171
+89,8,32,F,3,Atividade Intensa,173
+89,9,32,F,3,Atividade Intensa,171
+90,0,76,M,3,Atividade Intensa,126
+90,1,76,M,3,Atividade Intensa,123
+90,2,76,M,3,Atividade Intensa,124
+90,3,76,M,3,Atividade Intensa,124
+90,4,76,M,3,Atividade Intensa,127
+90,5,76,M,3,Atividade Intensa,126
+90,6,76,M,3,Atividade Intensa,126
+90,7,76,M,3,Atividade Intensa,123
+90,8,76,M,3,Atividade Intensa,126
+90,9,76,M,3,Atividade Intensa,122
+91,0,80,M,1,Repouso,114
+91,1,80,M,1,Repouso,115
+91,2,80,M,1,Repouso,120
+91,3,80,M,1,Repouso,117
+91,4,80,M,1,Repouso,118
+91,5,80,M,1,Repouso,114
+91,6,80,M,1,Repouso,117
+91,7,80,M,1,Repouso,120
+91,8,80,M,1,Repouso,119
+91,9,80,M,1,Repouso,115
+92,0,75,F,1,Repouso,63
+92,1,75,F,1,Repouso,64
+92,2,75,F,1,Repouso,63
+92,3,75,F,1,Repouso,64
+92,4,75,F,1,Repouso,62
+92,5,75,F,1,Repouso,63
+92,6,75,F,1,Repouso,64
+92,7,75,F,1,Repouso,63
+92,8,75,F,1,Repouso,60
+92,9,75,F,1,Repouso,60
+93,0,35,M,1,Repouso,125
+93,1,35,M,1,Repouso,129
+93,2,35,M,1,Repouso,125
+93,3,35,M,1,Repouso,126
+93,4,35,M,1,Repouso,127
+93,5,35,M,1,Repouso,126
+93,6,35,M,1,Repouso,129
+93,7,35,M,1,Repouso,127
+93,8,35,M,1,Repouso,129
+93,9,35,M,1,Repouso,127
+94,0,78,M,1,Repouso,70
+94,1,78,M,1,Repouso,68
+94,2,78,M,1,Repouso,69
+94,3,78,M,1,Repouso,67
+94,4,78,M,1,Repouso,70
+94,5,78,M,1,Repouso,68
+94,6,78,M,1,Repouso,71
+94,7,78,M,1,Repouso,68
+94,8,78,M,1,Repouso,70
+94,9,78,M,1,Repouso,72
+95,0,59,F,2,Atividade Leve,106
+95,1,59,F,2,Atividade Leve,111
+95,2,59,F,2,Atividade Leve,110
+95,3,59,F,2,Atividade Leve,106
+95,4,59,F,2,Atividade Leve,107
+95,5,59,F,2,Atividade Leve,106
+95,6,59,F,2,Atividade Leve,106
+95,7,59,F,2,Atividade Leve,108
+95,8,59,F,2,Atividade Leve,110
+95,9,59,F,2,Atividade Leve,111
+96,0,78,F,2,Atividade Leve,108
+96,1,78,F,2,Atividade Leve,105
+96,2,78,F,2,Atividade Leve,105
+96,3,78,F,2,Atividade Leve,108
+96,4,78,F,2,Atividade Leve,109
+96,5,78,F,2,Atividade Leve,106
+96,6,78,F,2,Atividade Leve,105
+96,7,78,F,2,Atividade Leve,110
+96,8,78,F,2,Atividade Leve,109
+96,9,78,F,2,Atividade Leve,105
+97,0,63,F,1,Repouso,128
+97,1,63,F,1,Repouso,126
+97,2,63,F,1,Repouso,131
+97,3,63,F,1,Repouso,130
+97,4,63,F,1,Repouso,131
+97,5,63,F,1,Repouso,128
+97,6,63,F,1,Repouso,130
+97,7,63,F,1,Repouso,127
+97,8,63,F,1,Repouso,126
+97,9,63,F,1,Repouso,129
+98,0,24,F,1,Repouso,85
+98,1,24,F,1,Repouso,80
+98,2,24,F,1,Repouso,82
+98,3,24,F,1,Repouso,79
+98,4,24,F,1,Repouso,82
+98,5,24,F,1,Repouso,83
+98,6,24,F,1,Repouso,84
+98,7,24,F,1,Repouso,79
+98,8,24,F,1,Repouso,83
+98,9,24,F,1,Repouso,79
+99,0,67,F,2,Atividade Leve,121
+99,1,67,F,2,Atividade Leve,125
+99,2,67,F,2,Atividade Leve,124
+99,3,67,F,2,Atividade Leve,123
+99,4,67,F,2,Atividade Leve,121
+99,5,67,F,2,Atividade Leve,121
+99,6,67,F,2,Atividade Leve,126
+99,7,67,F,2,Atividade Leve,125
+99,8,67,F,2,Atividade Leve,123
+99,9,67,F,2,Atividade Leve,122
